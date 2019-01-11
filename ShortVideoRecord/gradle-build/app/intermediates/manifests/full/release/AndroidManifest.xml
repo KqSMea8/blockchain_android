@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.blockchain.shortvideorecord"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/> -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" /> <!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:name="com.blochchain.shortvideorecord.activity.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.blochchain.shortvideorecord.activity.SplashActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.blochchain.shortvideorecord.activity.MainActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter>
+                <action android:name="com.aliyun.alivcsolution.main" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.blochchain.shortvideorecord.activity.DemoActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.blochchain.shortvideorecord.activity.RecordActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.Main2Activity" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name="com.blochchain.shortvideorecord.activity.LoginActivity" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name="com.blochchain.shortvideorecord.activity.FansPortraitActivity" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.PlayDataActivity" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.IncomeDetailActivity" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.WithdrawActivity" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.OperationSuccessActivity" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.WithdrawDetailActivity" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.WithdrawDetailResultActivity" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.EditVideoActivity" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.MediaAuthenticationActivity" />
+        <activity
+            android:name="com.blochchain.shortvideorecord.activity.PerfectInformationActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="com.blochchain.shortvideorecord.activity.MyInfromationActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.MyBankCardActivity" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.SystemSettingActivity" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.ChangePhoneActivity" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.HelpCenterActivity" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.MessageActivity" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.MessageFansActivity" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.UploadActivity" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.MessageDetailActivity" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.blockchain.shortvideorecord.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name="com.aliyun.demo.recorder.CameraDemo"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="com.duanqu.qupai.action.camera" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aliyun.demo.recorder.RecorderSettingTest"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.duanqu.qupai.action.recorder.setting" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aliyun.demo.recorder.VideoPlayActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.aliyun.demo.recorder.MusicActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aliyun.demo.recorder.AliyunVideoRecorder"
+            android:screenOrientation="portrait"
+            android:theme="@style/AliyunVideoUIStytle" >
+            <intent-filter>
+                <action android:name="com.duanqu.qupai.action.recorder" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aliyun.demo.editor.EditorActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+
+            <!-- <intent-aliyun_svideo_filter> -->
+            <!-- <action android:name="com.duanqu.qupai.action.editor"/> -->
+            <!-- <data android:scheme="file"/> -->
+            <!-- <category android:name="android.intent.category.DEFAULT"/> -->
+            <!-- </intent-aliyun_svideo_filter> -->
+            <intent-filter>
+                <action android:name="com.duanqu.qupai.action.editor" />
+                <!-- <data android:scheme="content" android:host="com.duanqu.qusdkdemo.fileprovider" -->
+                <!-- android:mimeType="text/plain"/> -->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aliyun.demo.effectmanager.EffectManagerActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="com.duanqu.qupai.action.effectmanager" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aliyun.demo.effectmanager.MorePasterActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="com.duanqu.qupai.action.morepaster" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aliyun.demo.effectmanager.MoreCaptionActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="com.duanqu.qupai.action.morecaption" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aliyun.demo.effectmanager.MoreMVActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="com.duanqu.qupai.action.moremv" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aliyun.demo.publish.PublishActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aliyun.demo.publish.CoverEditActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aliyun.demo.publish.UploadActivity"
+            android:hardwareAccelerated="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.aliyun.demo.importer.ImportEditSettingTest"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.duanqu.qupai.action.import.setting" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aliyun.demo.importer.MediaActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.duanqu.qupai.action.import" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aliyun.demo.crop.CropSettingTest"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <action android:name="com.duanqu.qupai.action.crop.setting" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aliyun.demo.crop.MediaActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AliyunVideoUIStytle" >
+            <intent-filter>
+                <action android:name="com.duanqu.qupai.action.crop" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aliyun.demo.crop.AliyunVideoCrop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AliyunVideoUIStytle" >
+        </activity>
+        <activity
+            android:name="com.aliyun.demo.crop.AliyunImageCrop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AliyunVideoUIStytle" >
+        </activity>
+
+        <service
+            android:name="com.liulishuo.filedownloader.services.FileDownloadService"
+            android:process=":filedownloader" />
+
+        <activity
+            android:name="com.aliyun.quhelp.AliyunHelperActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.duanqu.qupai.action.help" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aliyun.quhelp.CopyRightActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+
+        <service
+            android:name="com.squareup.leakcanary.internal.HeapAnalyzerService"
+            android:enabled="false"
+            android:process=":leakcanary" />
+        <service
+            android:name="com.squareup.leakcanary.DisplayLeakService"
+            android:enabled="false" />
+
+        <activity
+            android:name="com.squareup.leakcanary.internal.DisplayLeakActivity"
+            android:enabled="false"
+            android:icon="@drawable/leak_canary_icon"
+            android:label="@string/leak_canary_display_activity_label"
+            android:taskAffinity="com.squareup.leakcanary"
+            android:theme="@style/leak_canary_LeakCanary.Base" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.squareup.leakcanary.internal.RequestStoragePermissionActivity"
+            android:enabled="false"
+            android:icon="@drawable/leak_canary_icon"
+            android:label="@string/leak_canary_storage_permission_activity_label"
+            android:taskAffinity="com.squareup.leakcanary"
+            android:theme="@style/leak_canary_Theme.Transparent" />
+        <activity android:name="com.aliyun.nativecrash.NativeCrashActivity" />
+
+        <meta-data
+            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+            android:value="GlideModule" />
+
+        <service android:name="com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService" />
+        <service
+            android:name="com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService"
+            android:process=":filedownloader" />
+
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+
+</manifest>

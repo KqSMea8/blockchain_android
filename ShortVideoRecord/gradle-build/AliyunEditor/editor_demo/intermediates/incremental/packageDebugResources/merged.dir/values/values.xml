@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="paint_colors">
+        <item>#FFFFFF</item>
+        <item>#000000</item>
+        <item>#01ADD9</item>
+        <item>#53DA3E</item>
+        <item>#FFEF02</item>
+        <item>#FF6D00</item>
+        <item>#E72E45</item>
+        <item>#BC34BA</item>
+    </array>
+    <array name="qupai_text_edit_colors">
+        <item>#E72E45</item>
+        <item>#0048D2</item>
+        <item>#000000</item>
+        <item>#53153E</item>
+        <item>#9A816B</item>
+        <item>#FFFF90</item>
+        <item>#E5CDFF</item>
+        <item>#FF6D00</item>
+        <item>#7A1FBA</item>
+        <item>#FA6593</item>
+        <item>#01ADD9</item>
+        <item>#ffffff</item>
+        <item>#C1FF44</item>
+        <item>#EF4B81</item>
+        <item>#019E25</item>
+        <item>#412D14</item>
+        <item>#FFEF02</item>
+        <item>#BC34BA</item>
+        <item>#F9C5C7</item>
+        <item>#38E5BF</item>
+        <item>#C5D2F9</item>
+    </array>
+    <color name="action_bar_bg">#232A42</color>
+    <color name="action_bar_bg_50pct">#7f232A42</color>
+    <color name="aliyun_animation_filter_color1">#FBDE38</color>
+    <color name="aliyun_animation_filter_color2">#62B6FE</color>
+    <color name="aliyun_animation_filter_color3">#FEA933</color>
+    <color name="aliyun_animation_filter_color4">#F35C4B</color>
+    <color name="aliyun_animation_filter_color5">#798ECD</color>
+    <color name="bg_effect_manager">#232A42</color>
+    <color name="compose_edit_text">#bcbec5</color>
+    <color name="defalut_primary_color">#ff5454</color>
+    <color name="defalut_primary_color_alpha30">#4dff5454</color>
+    <color name="effect_bg_color">#EF4B81</color>
+    <color name="music_back_color">#1B2033</color>
+    <color name="qupai_black_opacity_80pct">#cc000000</color>
+    <color name="seek_bar_theme">#F05487</color>
+    <color name="tab_bg_color">#1B2133</color>
+    <color name="tab_bg_color_50pct">#7f1B2133</color>
+    <color name="tab_indicator_color">#EF4B81</color>
+    <color name="tab_text_color">#6E768B</color>
+    <color name="timeline_bar_active_overlay">#66EF4B81</color>
+    <color name="timeline_bar_fix_overlay">#66EF4B81</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_alpha_0">#ffffff</color>
+    <color name="white_alpha_10">#1affffff</color>
+    <color name="white_alpha_20">#33ffffff</color>
+    <color name="white_alpha_30">#4dffffff</color>
+    <color name="white_alpha_40">#66ffffff</color>
+    <color name="white_alpha_50">#7fffffff</color>
+    <color name="white_alpha_60">#99ffffff</color>
+    <color name="white_alpha_70">#b3ffffff</color>
+    <color name="white_alpha_80">#ccffffff</color>
+    <color name="white_transparent_40">#66FFFFFF</color>
+    <declare-styleable name="AutoResizingTextView"><attr format="dimension" name="strokeWidth"/><attr format="dimension" name="strokeMiter"/><attr format="color" name="strokeColor"/><attr name="strokeJoinStyle">
+            <enum name="miter" value="0"/>
+            <enum name="bevel" value="1"/>
+            <enum name="round" value="2"/>
+        </attr></declare-styleable>
+    <declare-styleable name="EditOverlay_Layout"><attr name="android:layout_gravity"/><attr name="android:layout_width"/><attr name="android:layout_height"/></declare-styleable>
+    <dimen name="action_bar_height">22dp</dimen>
+    <dimen name="action_bar_profile_title_drawablePadding">4dp</dimen>
+    <dimen name="action_bar_size">7sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="aliyun_svideo_square_thumbnail_size">50dp</dimen>
+    <dimen name="bottom_editor_tab_height">40dp</dimen>
+    <dimen name="bottom_editor_tab_padding">8dp</dimen>
+    <dimen name="effect_image_size">50dp</dimen>
+    <dimen name="effect_list_view_size">100dp</dimen>
+    <dimen name="effect_music_view_size">300dp</dimen>
+    <dimen name="effect_overlay_view_size">160dp</dimen>
+    <dimen name="font_size_20px">10.0sp</dimen>
+    <dimen name="font_size_28px">14.0sp</dimen>
+    <dimen name="left_margin_profile_toolbar">9dp</dimen>
+    <dimen name="list_item_space">10dp</dimen>
+    <dimen name="qupai_effect_paster_operation_size">44dp</dimen>
+    <dimen name="right_margin_profile_toolbar">15dp</dimen>
+    <item name="dynamic_overlay_layout" type="id"/>
+    <item name="dynamic_timeline_layout" type="id"/>
+    <item name="qupai_bg_overlay_text_label" type="id"/>
+    <item name="qupai_btn_edit_overlay_cancel" type="id"/>
+    <item name="qupai_btn_edit_overlay_mirror" type="id"/>
+    <item name="qupai_btn_edit_overlay_text" type="id"/>
+    <item name="qupai_btn_edit_overlay_transform" type="id"/>
+    <item name="qupai_overlay_content_animation" type="id"/>
+    <item name="qupai_overlay_content_frame_indiator" type="id"/>
+    <item name="qupai_overlay_content_text" type="id"/>
+    <item name="timeline_overlay_head" type="id"/>
+    <item name="timeline_overlay_middle" type="id"/>
+    <item name="timeline_overlay_tail" type="id"/>
+    <string name="add_music_audio_time">音频时间</string>
+    <string name="add_music_end_time">结束时间(ms)</string>
+    <string name="add_music_play_time">播放时间</string>
+    <string name="add_music_start_time">开始时间(ms)</string>
+    <string name="aliyun_svideo_editor_init_failed">编辑器初始化失败</string>
+    <string name="aliyun_svideo_effect">特效</string>
+    <string name="aliyun_svideo_filter">滤镜</string>
+    <string name="aliyun_svideo_time_effect_all">全程</string>
+    <string name="aliyun_svideo_time_effect_moment">某刻</string>
+    <string name="aliyun_svideo_time_effect_not_support">时间特效不支持多段视频</string>
+    <string name="app_name">编辑Demo</string>
+    <string name="backtoeditorandtryagain">请返回编辑稍后再试</string>
+    <string name="cancel">取消</string>
+    <string name="cancel_more_mv_edit">取消</string>
+    <string name="compose_failed">合成失败</string>
+    <string name="compose_success">合成成功</string>
+    <string name="composing">视频合成中</string>
+    <string name="countoflimit">最多不超过20个字</string>
+    <string name="delete_effect_manager">删除</string>
+    <string name="download_effect_edit">下载</string>
+    <string name="edit_cover">选择封面</string>
+    <string name="edit_nav_edit">编辑</string>
+    <string name="edit_nav_save_and_share">保存／分享></string>
+    <string name="effect_mananger_nav_edit">特效管理</string>
+    <string name="empty_music">无音乐</string>
+    <string name="font_effect_manager">字体</string>
+    <string name="go_ahead_compose">继续合成</string>
+    <string name="goback_to_editor">返回编辑</string>
+    <string name="has_no_network">网络不给力，请检查网络</string>
+    <string name="input_video_desc">你可以在合成中添加视频描述...</string>
+    <string name="local_music">本地音乐</string>
+    <string name="material_downloading_failure">素材下载失败！</string>
+    <string name="more">更多</string>
+    <string name="more_caption_nav_edit">更多字幕</string>
+    <string name="more_motion_sticker_nav_edit">更多动图</string>
+    <string name="more_mv_nav_edit">更多MV</string>
+    <string name="motion_sticker_effect_manager">动图</string>
+    <string name="music_effect_manager">音乐</string>
+    <string name="music_origin">原音</string>
+    <string name="mv_effect_manager">MV</string>
+    <string name="mv_message">请先移除MV效果再添加音乐</string>
+    <string name="my_music">我的音乐</string>
+    <string name="my_video">我的视频</string>
+    <string name="no_free_memory">剩余磁盘空间不足</string>
+    <string name="none_effect">原片</string>
+    <string name="not_shutdown_app">请不要关闭应用</string>
+    <string name="not_supported_audio">不支持的音频格式</string>
+    <string name="not_supported_pixel_format">不支持的文件</string>
+    <string name="not_supported_video">不支持的视频格式</string>
+    <string name="play_video_error">该视频为错误视频</string>
+    <string name="publish">发布</string>
+    <string name="qupai_text_count_outof">字数超出限制</string>
+    <string name="res_copy">资源拷贝中</string>
+    <string name="select_cover">选择封面</string>
+    <string name="subtitle_effect_manager">字幕</string>
+    <string name="timeline_curr_time">%1$02d:%2$02d</string>
+    <string name="transcode">转码中</string>
+    <string name="upload_failed">上传失败</string>
+    <string name="upload_success">上传成功</string>
+    <string name="uploading">正在上传 0%</string>
+    <string name="use_effect_edit">使用</string>
+    <string name="video_composeing_cancel_or_go">正在进行视频合成，确定要放弃合成吗？</string>
+    <style name="QUDemoBottomStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+    <style name="ResourcePreviewStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="TextDlgStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="bottom_dialog_animation">
+        <item name="android:windowEnterAnimation">@anim/aliyun_svideo_anim_trans_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/aliyun_svideo_anim_layout_bottom_out</item>
+    </style>
+</resources>

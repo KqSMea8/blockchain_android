@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\asproject\blockchain_android\ShortVideoRecord\AliyunFileDownLoader\downloadermanager\src\main\assets"/><source path="D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunFileDownLoader\downloadermanager\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="D:\asproject\blockchain_android\ShortVideoRecord\AliyunFileDownLoader\downloadermanager\src\release\assets"/></dataSet></merger>

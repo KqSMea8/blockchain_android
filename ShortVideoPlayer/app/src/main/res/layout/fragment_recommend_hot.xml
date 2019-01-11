@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.RecommendHotFragment">
+
+    <com.blockchain.vodplayerview.widget.AliyunVodPlayerView
+        android:id="@+id/video_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="@dimen/activity_common_right_magging"
+    android:orientation="vertical">
+<com.blockchain.shortvideoplayer.widget.CircleImageView
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:id="@+id/iv_haed"
+    android:src="@mipmap/head"/>
+    <ImageView
+        android:id="@+id/iv_love"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="40dp"
+        android:src="@mipmap/love_unselected"/>
+    <TextView
+        android:id="@+id/tv_love_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/white"
+        android:text="11w"/>
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@mipmap/praise_unselected"
+        android:layout_marginTop="30dp"
+        android:id="@+id/iv_praise"/>
+    <TextView
+        android:id="@+id/tv_praise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="20dp"
+        android:text="1w"/>
+</LinearLayout>
+    <TextView
+        android:id="@+id/tv_describe"
+        android:layout_marginLeft="@dimen/activity_common_left_magging"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="100dp"
+        android:text="善于利用故事，游戏，肢体语言教学，引导孩子发现问题，分析问题，解决问题"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/tv_aite"
+        android:layout_above="@+id/tv_describe"
+        android:layout_marginLeft="@dimen/activity_common_left_magging"
+        android:layout_marginBottom="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/aite"/>
+    <TextView
+        android:id="@+id/tv_nickname"
+        android:layout_toRightOf="@+id/tv_aite"
+        android:layout_above="@+id/tv_describe"
+        android:layout_marginBottom="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="李老师"/>
+</RelativeLayout>

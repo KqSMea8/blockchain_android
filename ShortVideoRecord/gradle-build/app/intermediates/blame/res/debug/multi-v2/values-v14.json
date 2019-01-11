@@ -1,0 +1,74 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\Android\\asprojects\\blockchain_android\\ShortVideoRecord\\gradle-build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\bd4e99e9c811969e6a60b3d0f755592d\\res\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "2,7,8,9,15",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,331,402,485,895",
+                        "endLines": "6,7,8,14,20",
+                        "endColumns": "12,70,82,12,12",
+                        "endOffsets": "326,397,480,890,1312"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\leakcanary-android-1.5.aar\\b07a1222e61b320f27a44c29a7096dec\\res\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "3",
+                        "endColumns": "10",
+                        "endOffsets": "136"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "1317",
+                        "endLines": "22",
+                        "endColumns": "10",
+                        "endOffsets": "1398"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\asproject\\blockchain_android\\ShortVideoRecord\\gradle-build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\86186\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\2ec20335875333bf7837d9f9ffdcd558\\res\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "2,7,8,9,15",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,331,402,485,895",
+                        "endLines": "6,7,8,14,20",
+                        "endColumns": "12,70,82,12,12",
+                        "endOffsets": "326,397,480,890,1312"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\86186\\.gradle\\caches\\transforms-1\\files-1.1\\leakcanary-android-1.5.aar\\c26c6a8eeaff804b7ae073dbb5f7ff53\\res\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "3",
+                        "endColumns": "10",
+                        "endOffsets": "136"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "1317",
+                        "endLines": "22",
+                        "endColumns": "10",
+                        "endOffsets": "1398"
+                    }
+                }
+            ]
+        }
+    ]
+}

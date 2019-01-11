@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\asprojects\blockchain_android\ShortVideoPlayer\zxing\src\main\assets"/><source path="D:\asprojects\blockchain_android\ShortVideoPlayer\gradle-build\zxing\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\asprojects\blockchain_android\ShortVideoPlayer\zxing\src\debug\assets"/></dataSet></merger>

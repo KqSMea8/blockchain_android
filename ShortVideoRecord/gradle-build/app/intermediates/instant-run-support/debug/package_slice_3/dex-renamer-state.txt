@@ -1,0 +1,4 @@
+#Fri Nov 30 17:05:05 CST 2018
+base.0=F\:\\Android\\asprojects\\blockchain_android\\ShortVideoRecord\\gradle-build\\app\\intermediates\\transforms\\dexMerger\\debug\\4
+path.0=classes.dex
+renamed.0=classes.dex

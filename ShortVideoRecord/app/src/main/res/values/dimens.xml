@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_home_points_item_margin">2dp</dimen>
+    <dimen name="alivc_home_points_item_margin">2dp</dimen>
+
+    <dimen name="activity_common_left_magging">10dp</dimen>
+    <dimen name="activity_common_right_magging">10dp</dimen>
+    <dimen name="activity_common_bottom_magging">10dp</dimen>
+    <dimen name="activity_common_top_magging">10dp</dimen>
+    <dimen name="actitity_common_button_height">40dp</dimen>
+    <dimen name="actitity_common_height">40dp</dimen>
+    <dimen name="login_left_magging">40dp</dimen>
+    <dimen name="login_right_magging">40dp</dimen>
+    <dimen name="iv_back_width">40dp</dimen>
+
+    <dimen name="activity_common_title_size">17sp</dimen>
+</resources>

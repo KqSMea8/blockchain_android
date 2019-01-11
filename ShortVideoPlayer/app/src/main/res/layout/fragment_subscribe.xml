@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.SubscribeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="@dimen/activity_common_left_magging"
+        android:layout_marginRight="@dimen/activity_common_right_magging"
+        android:layout_marginTop="@dimen/activity_common_top_magging"
+        android:background="@drawable/gray_rectangle_white_shape"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="50dp"
+                android:src="@mipmap/background_rectarge_orange"
+                android:scaleType="fitXY"
+                android:layout_height="50dp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:src="@mipmap/icon_subscribe_white"
+                android:layout_centerInParent="true"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/iv_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/activity_common_right_magging"
+            android:src="@mipmap/arrow_right_gray"/>
+        <TextView
+            android:id="@+id/my_subscribe"
+            android:layout_width="wrap_content"
+            android:text="我订阅的"
+            android:layout_marginRight="@dimen/activity_common_right_magging"
+            android:textColor="@color/text_color_black"
+            android:layout_centerVertical="true"
+            android:textSize="15sp"
+            android:layout_toLeftOf="@+id/iv_right"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="最新动态"
+        android:textSize="15sp"
+        android:layout_marginTop="@dimen/activity_common_top_magging"
+        android:layout_marginLeft="@dimen/activity_common_left_magging"
+        android:textColor="@color/text_color_black"
+        android:layout_height="wrap_content" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_marginTop="@dimen/activity_common_top_magging"
+        android:divider="@color/white"
+        android:layout_marginRight="@dimen/activity_common_right_magging"
+        android:id="@+id/lv_self_media"/>
+</LinearLayout>

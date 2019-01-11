@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+   <RelativeLayout
+       android:layout_width="@dimen/actitity_common_height"
+       android:layout_height="@dimen/actitity_common_height">
+       <ImageView
+           android:id="@+id/iv_back"
+           android:layout_width="wrap_content"
+           android:layout_centerInParent="true"
+           android:src="@mipmap/circle_red"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:id="@+id/tv_id"
+           android:layout_width="wrap_content"
+           android:layout_centerInParent="true"
+           android:textColor="@color/white"
+           android:text="1"
+           android:layout_height="wrap_content" />
+   </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/activity_common_left_magging"
+        android:text="自媒体人或视频名"
+        android:textColor="@color/text_color_gray"/>
+</LinearLayout>

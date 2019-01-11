@@ -1,0 +1,127 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:2:1-57:12
+	package
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:3:52-77
+		INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml
+		INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:2:1-57:12
+		INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:2:1-57:12
+		INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:4:5-65
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:4:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:5:22-78
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:6:5-70
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:6:22-68
+uses-feature#0x00020000
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:7:5-78
+	android:glEsVersion
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:7:19-51
+	android:required
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:7:52-75
+uses-permission#android.permission.INTERNET
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:9:22-76
+application
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:11:5-55:19
+activity#com.aliyun.demo.recorder.CameraDemo
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:12:9-20:20
+	android:screenOrientation
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:15:13-49
+	android:theme
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:14:13-66
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:13:13-63
+intent-filter#android.intent.category.DEFAULT+com.duanqu.qupai.action.camera
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:16:13-19:29
+action#com.duanqu.qupai.action.camera
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:17:17-72
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:17:25-70
+category#android.intent.category.DEFAULT
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:18:17-75
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:18:27-73
+activity#com.aliyun.demo.recorder.RecorderSettingTest
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:21:9-28:20
+	android:screenOrientation
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:23:13-49
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:22:13-72
+intent-filter#android.intent.category.DEFAULT+com.duanqu.qupai.action.recorder.setting
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:24:13-27:29
+action#com.duanqu.qupai.action.recorder.setting
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:25:17-82
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:25:25-80
+activity#com.aliyun.demo.recorder.VideoPlayActivity
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:29:9-33:20
+	android:screenOrientation
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:32:13-49
+	android:theme
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:31:13-66
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:30:13-70
+activity#com.aliyun.demo.recorder.MusicActivity
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:34:9-37:20
+	android:screenOrientation
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:36:13-49
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:35:13-66
+activity#com.aliyun.demo.recorder.AliyunVideoRecorder
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:38:9-47:20
+	android:screenOrientation
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:42:13-49
+	android:theme
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:40:13-55
+	tools:replace
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:41:13-42
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:39:13-72
+intent-filter#android.intent.category.DEFAULT+com.duanqu.qupai.action.recorder
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:43:13-46:29
+action#com.duanqu.qupai.action.recorder
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:44:17-74
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml:44:25-72
+uses-sdk
+INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml
+INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml
+INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml
+INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml
+		INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml
+		INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\AliyunRecorder\record_demo\src\main\AndroidManifest.xml

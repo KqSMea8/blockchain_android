@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bg_photo"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/black"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/cancel_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/alert_dialog_shape"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <Button
+            android:background="@drawable/mybtnselector"
+            android:id="@+id/btn_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/text_color_blue"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/cancel_layout"
+        android:layout_margin="10dp"
+        android:background="@drawable/alert_dialog_shape"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <Button
+            android:background="@drawable/mybtntopselector"
+            android:id="@+id/btn_TakePicture"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="拍照"
+            android:textColor="@color/text_color_blue"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/LineGrayColor"
+            android:text="_"
+            android:textColor="@color/LineGrayColor" />
+
+        <Button
+            android:background="@drawable/mybtnbottomselector"
+            android:id="@+id/btn_Phone"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="从相册中选择"
+            android:textColor="@color/text_color_blue"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</RelativeLayout>

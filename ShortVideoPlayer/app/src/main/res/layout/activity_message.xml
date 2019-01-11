@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MessageActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_common_top_magging"
+        android:layout_marginRight="@dimen/activity_common_right_magging">
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/iv_back_width"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/back_black"/>
+
+        <TextView
+            android:id="@+id/tv_tilte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_color_black"
+            android:textSize="@dimen/activity_common_title_size"
+            android:textStyle="bold"
+            android:text="消息" />
+
+    </RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rl_system"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="@dimen/activity_common_left_magging"
+    android:layout_marginRight="@dimen/activity_common_right_magging">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="系统消息"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color_gray"
+        android:text="最后留言时间"
+        android:id="@+id/tv_system_time"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color_black"
+        android:layout_alignParentRight="true"
+        android:id="@+id/tv_system_num"
+        android:text="留言数量"
+        android:layout_below="@+id/tv_system_time"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/activity_common_top_magging"/>
+
+</RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/activity_common_top_magging"
+        android:layout_height="1dp"
+        android:background="@color/LineGrayColor"/>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rl_self"
+    android:layout_marginTop="@dimen/activity_common_top_magging"
+    android:layout_marginLeft="@dimen/activity_common_left_magging"
+    android:layout_marginRight="@dimen/activity_common_right_magging">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自媒体留言"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color_gray"
+        android:id="@+id/tv_self_time"
+        android:text="最后留言时间"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color_black"
+        android:layout_alignParentRight="true"
+        android:text="留言数量"
+        android:id="@+id/tv_self_num"
+        android:textStyle="bold"
+        android:layout_below="@+id/tv_self_time"
+        android:layout_marginTop="@dimen/activity_common_top_magging"/>
+
+</RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/activity_common_top_magging"
+        android:layout_height="1dp"
+        android:background="@color/LineGrayColor"/>
+</LinearLayout>

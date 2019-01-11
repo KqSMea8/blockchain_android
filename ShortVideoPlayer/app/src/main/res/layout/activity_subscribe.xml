@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grayBackground"
+    tools:context=".activity.SubscribeActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/actitity_common_height"
+        android:background="@color/white"
+        >
+        <ImageView
+            android:layout_marginTop="@dimen/activity_common_top_magging"
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/iv_back_width"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/back_black"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/activity_common_top_magging"
+            android:id="@+id/tv_tilte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_color_black"
+            android:textSize="@dimen/activity_common_title_size"
+            android:textStyle="bold"
+            android:text="订阅类目" />
+        <TextView
+            android:id="@+id/tv_edite"
+            android:layout_marginTop="@dimen/activity_common_top_magging"
+            android:layout_marginRight="@dimen/activity_common_right_magging"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/text_color_black"
+            android:textSize="@dimen/activity_common_title_size"
+            android:textStyle="bold"
+            android:text="编辑" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/activity_common_top_magging"
+        android:background="@color/grayBackground"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/activity_common_left_magging"
+            android:layout_marginRight="@dimen/activity_common_right_magging"
+            android:background="@color/white"
+            android:orientation="vertical">
+    <GridView
+        android:id="@+id/gv_class"
+        android:layout_marginTop="@dimen/activity_common_top_magging"
+        android:layout_marginLeft="@dimen/activity_common_left_magging"
+        android:layout_marginRight="@dimen/activity_common_right_magging"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:horizontalSpacing="5dp"
+        android:numColumns="3"
+        android:verticalSpacing="5dp" />
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>

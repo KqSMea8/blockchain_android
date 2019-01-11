@@ -1,0 +1,849 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:100:9-108:20
+	android:grantUriPermissions
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:104:13-47
+	android:authorities
+		INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:102:13-60
+	android:exported
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:103:13-37
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:101:13-67
+manifest
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:2:1-111:12
+MERGED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-72:12
+MERGED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-105:12
+MERGED from [:AliyunImport:import_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunImport\import_demo\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-32:12
+MERGED from [:AliyunCrop:crop_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-48:12
+MERGED from [:AliyunFileDownLoader:downloadermanager] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunFileDownLoader\downloadermanager\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-25:12
+MERGED from [:AliyunView] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunView\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-16:12
+MERGED from [:AliyunHelp] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunHelp\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-29:12
+MERGED from [:AliyunResample] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunResample\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [com.tencent.bugly:crashreport:2.8.6.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\crashreport-2.8.6.0.aar\5f331836a0c79f4c4ef471949c93c12d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\53c9cd70dc8a1b79f6a2cb6cff3c29c1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\ad2e544bcabd0b954b22081fbca13cfd\AndroidManifest.xml:2:1-11:12
+MERGED from [pub.devrel:easypermissions:0.2.1] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\easypermissions-0.2.1.aar\9c96c842d883656af1cd15ee91aee2ae\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:design:24.2.1] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\design-24.2.1.aar\bb0ee80a39faec6afa4cd27b026711bf\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\2ec20335875333bf7837d9f9ffdcd558\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\6150c42f9b79171896ac2dba56c26058\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\4ea48e4f63b0ada5c5264c2f80d89fc7\AndroidManifest.xml:17:1-28:12
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.4.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.4.5.aar\34ecc9c20bec64050d226933d0c1f680\AndroidManifest.xml:2:1-22:12
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\c26c6a8eeaff804b7ae073dbb5f7ff53\AndroidManifest.xml:17:1-59:12
+MERGED from [:AliyunVideoSdk] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\AliyunSdk-RCE.aar\da301fd02897ed24cf67c6526a03c7bf\AndroidManifest.xml:2:1-18:12
+MERGED from [com.github.bumptech.glide:okhttp3-integration:1.4.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\okhttp3-integration-1.4.0.aar\d9316cfa58729dd907d5e551e9e75302\AndroidManifest.xml:2:1-17:12
+MERGED from [com.liulishuo.filedownloader:library:1.4.1] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\library-1.4.1.aar\0539e7cd7c79a30d36cbe7e1bbf4feef\AndroidManifest.xml:2:1-18:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\d5acf25ec73bde2cb240989cc9189827\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\a8c4ee39ab12325954168e3004733f78\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\77694504b4e27f3a72e11c536e75fe1c\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b769db3efe8805f1fe8912e39b2c69fa\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\cb4dc8ce6365732a0be61d71bfef5362\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\a31fc525f903add1dbd7d16976aacc55\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\5b99c095af08e6293fdf825fd343c348\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\7cbd5dd3cc134331dc4e1243e1206c66\AndroidManifest.xml:17:1-30:12
+INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:2:1-111:12
+	package
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:3:5-46
+		INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml
+		INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:2:1-111:12
+		INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:2:1-111:12
+		INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:20:5-67
+MERGED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:20:5-67
+MERGED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-67
+MERGED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-67
+MERGED from [:AliyunFileDownLoader:downloadermanager] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunFileDownLoader\downloadermanager\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-67
+MERGED from [:AliyunFileDownLoader:downloadermanager] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunFileDownLoader\downloadermanager\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-67
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.4.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.4.5.aar\34ecc9c20bec64050d226933d0c1f680\AndroidManifest.xml:11:5-67
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.4.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.4.5.aar\34ecc9c20bec64050d226933d0c1f680\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:6:22-63
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:7:5-71
+MERGED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-71
+MERGED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-71
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:7:22-68
+uses-permission#android.permission.CAMERA
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:8:5-65
+MERGED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-65
+MERGED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-65
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:8:22-62
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:9:5-79
+MERGED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-79
+MERGED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-79
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.4.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.4.5.aar\34ecc9c20bec64050d226933d0c1f680\AndroidManifest.xml:12:5-79
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.4.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.4.5.aar\34ecc9c20bec64050d226933d0c1f680\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:11:5-81
+MERGED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-81
+MERGED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-81
+MERGED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-81
+MERGED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-81
+MERGED from [:AliyunFileDownLoader:downloadermanager] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunFileDownLoader\downloadermanager\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-81
+MERGED from [:AliyunFileDownLoader:downloadermanager] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunFileDownLoader\downloadermanager\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-81
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.4.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.4.5.aar\34ecc9c20bec64050d226933d0c1f680\AndroidManifest.xml:14:5-81
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.4.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.4.5.aar\34ecc9c20bec64050d226933d0c1f680\AndroidManifest.xml:14:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\c26c6a8eeaff804b7ae073dbb5f7ff53\AndroidManifest.xml:26:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\c26c6a8eeaff804b7ae073dbb5f7ff53\AndroidManifest.xml:26:5-81
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.GET_TASKS
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:13:22-65
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:14:5-76
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.4.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.4.5.aar\34ecc9c20bec64050d226933d0c1f680\AndroidManifest.xml:13:5-76
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.4.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.4.5.aar\34ecc9c20bec64050d226933d0c1f680\AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:14:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:15:5-76
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.4.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.4.5.aar\34ecc9c20bec64050d226933d0c1f680\AndroidManifest.xml:15:5-76
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.4.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.4.5.aar\34ecc9c20bec64050d226933d0c1f680\AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:15:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:16:5-68
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:16:22-65
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:17:5-80
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:17:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:18:5-75
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:18:22-72
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:19:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:20:5-80
+MERGED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-80
+MERGED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-80
+MERGED from [:AliyunFileDownLoader:downloadermanager] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunFileDownLoader\downloadermanager\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-80
+MERGED from [:AliyunFileDownLoader:downloadermanager] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunFileDownLoader\downloadermanager\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\c26c6a8eeaff804b7ae073dbb5f7ff53\AndroidManifest.xml:25:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\c26c6a8eeaff804b7ae073dbb5f7ff53\AndroidManifest.xml:25:5-80
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:20:22-77
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:21:5-68
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:21:22-65
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:22:5-78
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:22:22-75
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:23:22-78
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:24:5-73
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:24:22-70
+application
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:26:5-109:19
+MERGED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:23:5-70:19
+MERGED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:23:5-70:19
+MERGED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-103:19
+MERGED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-103:19
+MERGED from [:AliyunImport:import_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunImport\import_demo\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-30:19
+MERGED from [:AliyunImport:import_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunImport\import_demo\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-30:19
+MERGED from [:AliyunCrop:crop_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-46:19
+MERGED from [:AliyunCrop:crop_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-46:19
+MERGED from [:AliyunFileDownLoader:downloadermanager] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunFileDownLoader\downloadermanager\intermediates\manifests\full\debug\AndroidManifest.xml:19:5-23:19
+MERGED from [:AliyunFileDownLoader:downloadermanager] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunFileDownLoader\downloadermanager\intermediates\manifests\full\debug\AndroidManifest.xml:19:5-23:19
+MERGED from [:AliyunView] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunView\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-14:19
+MERGED from [:AliyunView] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunView\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-14:19
+MERGED from [:AliyunHelp] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunHelp\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-27:19
+MERGED from [:AliyunHelp] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunHelp\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-27:19
+MERGED from [:AliyunResample] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunResample\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-15:19
+MERGED from [:AliyunResample] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunResample\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\ad2e544bcabd0b954b22081fbca13cfd\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\ad2e544bcabd0b954b22081fbca13cfd\AndroidManifest.xml:9:5-20
+MERGED from [pub.devrel:easypermissions:0.2.1] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\easypermissions-0.2.1.aar\9c96c842d883656af1cd15ee91aee2ae\AndroidManifest.xml:12:5-20
+MERGED from [pub.devrel:easypermissions:0.2.1] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\easypermissions-0.2.1.aar\9c96c842d883656af1cd15ee91aee2ae\AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:design:24.2.1] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\design-24.2.1.aar\bb0ee80a39faec6afa4cd27b026711bf\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:24.2.1] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\design-24.2.1.aar\bb0ee80a39faec6afa4cd27b026711bf\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\2ec20335875333bf7837d9f9ffdcd558\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\2ec20335875333bf7837d9f9ffdcd558\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\6150c42f9b79171896ac2dba56c26058\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\6150c42f9b79171896ac2dba56c26058\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\4ea48e4f63b0ada5c5264c2f80d89fc7\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\4ea48e4f63b0ada5c5264c2f80d89fc7\AndroidManifest.xml:22:5-26:19
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.4.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.4.5.aar\34ecc9c20bec64050d226933d0c1f680\AndroidManifest.xml:17:5-20:19
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.4.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.4.5.aar\34ecc9c20bec64050d226933d0c1f680\AndroidManifest.xml:17:5-20:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\c26c6a8eeaff804b7ae073dbb5f7ff53\AndroidManifest.xml:28:5-57:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\c26c6a8eeaff804b7ae073dbb5f7ff53\AndroidManifest.xml:28:5-57:19
+MERGED from [:AliyunVideoSdk] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\AliyunSdk-RCE.aar\da301fd02897ed24cf67c6526a03c7bf\AndroidManifest.xml:11:5-16:19
+MERGED from [:AliyunVideoSdk] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\AliyunSdk-RCE.aar\da301fd02897ed24cf67c6526a03c7bf\AndroidManifest.xml:11:5-16:19
+MERGED from [com.github.bumptech.glide:okhttp3-integration:1.4.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\okhttp3-integration-1.4.0.aar\d9316cfa58729dd907d5e551e9e75302\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.bumptech.glide:okhttp3-integration:1.4.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\okhttp3-integration-1.4.0.aar\d9316cfa58729dd907d5e551e9e75302\AndroidManifest.xml:11:5-15:19
+MERGED from [com.liulishuo.filedownloader:library:1.4.1] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\library-1.4.1.aar\0539e7cd7c79a30d36cbe7e1bbf4feef\AndroidManifest.xml:11:5-16:19
+MERGED from [com.liulishuo.filedownloader:library:1.4.1] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\library-1.4.1.aar\0539e7cd7c79a30d36cbe7e1bbf4feef\AndroidManifest.xml:11:5-16:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\d5acf25ec73bde2cb240989cc9189827\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\d5acf25ec73bde2cb240989cc9189827\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\a8c4ee39ab12325954168e3004733f78\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\a8c4ee39ab12325954168e3004733f78\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\77694504b4e27f3a72e11c536e75fe1c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\77694504b4e27f3a72e11c536e75fe1c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b769db3efe8805f1fe8912e39b2c69fa\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b769db3efe8805f1fe8912e39b2c69fa\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\cb4dc8ce6365732a0be61d71bfef5362\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\cb4dc8ce6365732a0be61d71bfef5362\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\a31fc525f903add1dbd7d16976aacc55\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\a31fc525f903add1dbd7d16976aacc55\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\5b99c095af08e6293fdf825fd343c348\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\5b99c095af08e6293fdf825fd343c348\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\7cbd5dd3cc134331dc4e1243e1206c66\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\7cbd5dd3cc134331dc4e1243e1206c66\AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:31:9-35
+	android:label
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:30:9-41
+	android:icon
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:29:9-36
+	android:allowBackup
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:28:9-35
+	android:theme
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:32:9-40
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:27:9-80
+activity#com.blochchain.shortvideorecord.activity.SplashActivity
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:33:9-42:20
+	android:screenOrientation
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:36:13-49
+	android:windowSoftInputMode
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:37:13-64
+	android:configChanges
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:35:13-48
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:34:13-83
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:38:14-41:30
+action#android.intent.action.MAIN
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:39:14-66
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:39:22-63
+category#android.intent.category.LAUNCHER
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:40:14-74
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:40:24-71
+activity#com.blochchain.shortvideorecord.activity.MainActivity
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:43:9-52:20
+	android:screenOrientation
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:46:13-49
+	android:launchMode
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:45:13-43
+	android:theme
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:47:13-63
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:44:13-81
+intent-filter#android.intent.category.DEFAULT+com.aliyun.alivcsolution.main
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:48:13-51:29
+action#com.aliyun.alivcsolution.main
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:49:17-72
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:49:25-69
+category#android.intent.category.DEFAULT
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:50:17-76
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:50:27-73
+activity#com.blochchain.shortvideorecord.activity.DemoActivity
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:53:9-56:52
+	android:screenOrientation
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:56:13-49
+	android:launchMode
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:55:13-43
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:54:13-81
+activity#com.blochchain.shortvideorecord.activity.RecordActivity
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:57:9-59:52
+	android:screenOrientation
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:59:13-49
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:58:13-83
+activity#com.blochchain.shortvideorecord.activity.Main2Activity
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:60:9-65:20
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:60:19-88
+activity#com.blochchain.shortvideorecord.activity.LoginActivity
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:66:9-71:20
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:66:19-88
+activity#com.blochchain.shortvideorecord.activity.FansPortraitActivity
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:72:9-98
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:72:19-95
+activity#com.blochchain.shortvideorecord.activity.PlayDataActivity
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:73:9-94
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:73:19-91
+activity#com.blochchain.shortvideorecord.activity.IncomeDetailActivity
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:74:9-98
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:74:19-95
+activity#com.blochchain.shortvideorecord.activity.WithdrawActivity
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:75:9-94
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:75:19-91
+activity#com.blochchain.shortvideorecord.activity.OperationSuccessActivity
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:76:9-102
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:76:19-99
+activity#com.blochchain.shortvideorecord.activity.WithdrawDetailActivity
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:77:9-100
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:77:19-97
+activity#com.blochchain.shortvideorecord.activity.WithdrawDetailResultActivity
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:78:9-106
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:78:19-103
+activity#com.blochchain.shortvideorecord.activity.EditVideoActivity
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:79:9-95
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:79:19-92
+activity#com.blochchain.shortvideorecord.activity.MediaAuthenticationActivity
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:80:9-105
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:80:19-102
+activity#com.blochchain.shortvideorecord.activity.PerfectInformationActivity
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:81:9-85:67
+	android:screenOrientation
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:84:13-49
+	android:windowSoftInputMode
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:85:13-64
+	android:configChanges
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:83:13-48
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:82:13-95
+activity#com.blochchain.shortvideorecord.activity.MyInfromationActivity
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:86:9-90:67
+	android:screenOrientation
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:89:13-49
+	android:windowSoftInputMode
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:90:13-64
+	android:configChanges
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:88:13-48
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:87:13-90
+activity#com.blochchain.shortvideorecord.activity.MyBankCardActivity
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:91:9-96
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:91:19-93
+activity#com.blochchain.shortvideorecord.activity.SystemSettingActivity
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:92:9-99
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:92:19-96
+activity#com.blochchain.shortvideorecord.activity.ChangePhoneActivity
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:93:9-97
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:93:19-94
+activity#com.blochchain.shortvideorecord.activity.HelpCenterActivity
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:94:9-96
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:94:19-93
+activity#com.blochchain.shortvideorecord.activity.MessageActivity
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:95:9-93
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:95:19-90
+activity#com.blochchain.shortvideorecord.activity.MessageFansActivity
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:96:9-97
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:96:19-94
+activity#com.blochchain.shortvideorecord.activity.UploadActivity
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:97:9-91
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:97:19-89
+activity#com.blochchain.shortvideorecord.activity.MessageDetailActivity
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:98:9-98
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:98:19-96
+uses-sdk
+INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml
+INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml
+MERGED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:AliyunImport:import_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunImport\import_demo\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:AliyunImport:import_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunImport\import_demo\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:AliyunCrop:crop_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\manifests\full\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:AliyunCrop:crop_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\manifests\full\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:AliyunFileDownLoader:downloadermanager] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunFileDownLoader\downloadermanager\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:AliyunFileDownLoader:downloadermanager] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunFileDownLoader\downloadermanager\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:AliyunView] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunView\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:AliyunView] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunView\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:AliyunHelp] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunHelp\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:AliyunHelp] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunHelp\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:AliyunResample] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunResample\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:AliyunResample] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunResample\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.tencent.bugly:crashreport:2.8.6.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\crashreport-2.8.6.0.aar\5f331836a0c79f4c4ef471949c93c12d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:crashreport:2.8.6.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\crashreport-2.8.6.0.aar\5f331836a0c79f4c4ef471949c93c12d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\53c9cd70dc8a1b79f6a2cb6cff3c29c1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\53c9cd70dc8a1b79f6a2cb6cff3c29c1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\ad2e544bcabd0b954b22081fbca13cfd\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\ad2e544bcabd0b954b22081fbca13cfd\AndroidManifest.xml:5:5-7:41
+MERGED from [pub.devrel:easypermissions:0.2.1] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\easypermissions-0.2.1.aar\9c96c842d883656af1cd15ee91aee2ae\AndroidManifest.xml:8:5-10:41
+MERGED from [pub.devrel:easypermissions:0.2.1] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\easypermissions-0.2.1.aar\9c96c842d883656af1cd15ee91aee2ae\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:24.2.1] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\design-24.2.1.aar\bb0ee80a39faec6afa4cd27b026711bf\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:24.2.1] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\design-24.2.1.aar\bb0ee80a39faec6afa4cd27b026711bf\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\2ec20335875333bf7837d9f9ffdcd558\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\2ec20335875333bf7837d9f9ffdcd558\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\6150c42f9b79171896ac2dba56c26058\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\6150c42f9b79171896ac2dba56c26058\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\4ea48e4f63b0ada5c5264c2f80d89fc7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\4ea48e4f63b0ada5c5264c2f80d89fc7\AndroidManifest.xml:20:5-44
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.4.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.4.5.aar\34ecc9c20bec64050d226933d0c1f680\AndroidManifest.xml:7:5-9:41
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.4.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.4.5.aar\34ecc9c20bec64050d226933d0c1f680\AndroidManifest.xml:7:5-9:41
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\c26c6a8eeaff804b7ae073dbb5f7ff53\AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\c26c6a8eeaff804b7ae073dbb5f7ff53\AndroidManifest.xml:20:5-22:41
+MERGED from [:AliyunVideoSdk] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\AliyunSdk-RCE.aar\da301fd02897ed24cf67c6526a03c7bf\AndroidManifest.xml:7:5-9:41
+MERGED from [:AliyunVideoSdk] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\AliyunSdk-RCE.aar\da301fd02897ed24cf67c6526a03c7bf\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:okhttp3-integration:1.4.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\okhttp3-integration-1.4.0.aar\d9316cfa58729dd907d5e551e9e75302\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:okhttp3-integration:1.4.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\okhttp3-integration-1.4.0.aar\d9316cfa58729dd907d5e551e9e75302\AndroidManifest.xml:7:5-9:41
+MERGED from [com.liulishuo.filedownloader:library:1.4.1] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\library-1.4.1.aar\0539e7cd7c79a30d36cbe7e1bbf4feef\AndroidManifest.xml:7:5-9:41
+MERGED from [com.liulishuo.filedownloader:library:1.4.1] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\library-1.4.1.aar\0539e7cd7c79a30d36cbe7e1bbf4feef\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\d5acf25ec73bde2cb240989cc9189827\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\d5acf25ec73bde2cb240989cc9189827\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\a8c4ee39ab12325954168e3004733f78\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\a8c4ee39ab12325954168e3004733f78\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\77694504b4e27f3a72e11c536e75fe1c\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\77694504b4e27f3a72e11c536e75fe1c\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b769db3efe8805f1fe8912e39b2c69fa\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b769db3efe8805f1fe8912e39b2c69fa\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\cb4dc8ce6365732a0be61d71bfef5362\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\cb4dc8ce6365732a0be61d71bfef5362\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\a31fc525f903add1dbd7d16976aacc55\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\a31fc525f903add1dbd7d16976aacc55\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\5b99c095af08e6293fdf825fd343c348\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\5b99c095af08e6293fdf825fd343c348\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\7cbd5dd3cc134331dc4e1243e1206c66\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\7cbd5dd3cc134331dc4e1243e1206c66\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml
+INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\2ec20335875333bf7837d9f9ffdcd558\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml
+		INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml
+		INJECTED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:105:13-107:57
+	android:resource
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:107:17-55
+	android:name
+		ADDED from D:\asproject\blockchain_android\ShortVideoRecord\app\src\main\AndroidManifest.xml:106:17-67
+uses-feature#0x00020000
+ADDED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:16:5-18:35
+	android:glEsVersion
+		ADDED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:17:9-41
+	android:required
+		ADDED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:18:9-32
+activity#com.aliyun.demo.recorder.CameraDemo
+ADDED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:24:9-33:20
+	android:screenOrientation
+		ADDED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:26:13-49
+	android:theme
+		ADDED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:27:13-66
+	android:name
+		ADDED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:25:13-63
+intent-filter#android.intent.category.DEFAULT+com.duanqu.qupai.action.camera
+ADDED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:28:13-32:29
+action#com.duanqu.qupai.action.camera
+ADDED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:29:17-73
+	android:name
+		ADDED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:29:25-70
+activity#com.aliyun.demo.recorder.RecorderSettingTest
+ADDED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:34:9-42:20
+	android:screenOrientation
+		ADDED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:36:13-49
+	android:name
+		ADDED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:35:13-72
+intent-filter#android.intent.category.DEFAULT+com.duanqu.qupai.action.recorder.setting
+ADDED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:37:13-41:29
+action#com.duanqu.qupai.action.recorder.setting
+ADDED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:38:17-83
+	android:name
+		ADDED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:38:25-80
+activity#com.aliyun.demo.recorder.VideoPlayActivity
+ADDED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:43:9-47:20
+	android:screenOrientation
+		ADDED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:45:13-49
+	android:theme
+		ADDED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:46:13-66
+	android:name
+		ADDED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:44:13-70
+activity#com.aliyun.demo.recorder.MusicActivity
+ADDED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:48:9-51:20
+	android:screenOrientation
+		ADDED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:50:13-49
+	android:name
+		ADDED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:49:13-66
+activity#com.aliyun.demo.recorder.AliyunVideoRecorder
+ADDED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:52:9-62:20
+	android:screenOrientation
+		ADDED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:54:13-49
+	android:theme
+		ADDED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:55:13-55
+	tools:replace
+		ADDED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:56:13-42
+	android:name
+		ADDED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:53:13-72
+intent-filter#android.intent.category.DEFAULT+com.duanqu.qupai.action.recorder
+ADDED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:57:13-61:29
+action#com.duanqu.qupai.action.recorder
+ADDED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:58:17-75
+	android:name
+		ADDED from [:AliyunRecorder:record_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\manifests\full\debug\AndroidManifest.xml:58:25-72
+activity#com.aliyun.demo.editor.EditorActivity
+ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:16:9-34:20
+	android:screenOrientation
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:20:13-49
+	android:label
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:19:13-45
+	android:exported
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:18:13-36
+	android:theme
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:21:13-69
+	android:name
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:17:13-65
+intent-filter#android.intent.category.DEFAULT+com.duanqu.qupai.action.editor
+ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:28:13-33:29
+action#com.duanqu.qupai.action.editor
+ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:29:17-73
+	android:name
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:29:25-70
+activity#com.aliyun.demo.effectmanager.EffectManagerActivity
+ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:35:9-45:20
+	android:screenOrientation
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:38:13-49
+	android:label
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:37:13-45
+	android:theme
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:39:13-69
+	android:name
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:36:13-79
+intent-filter#android.intent.category.DEFAULT+com.duanqu.qupai.action.effectmanager
+ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:40:13-44:29
+action#com.duanqu.qupai.action.effectmanager
+ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:41:17-80
+	android:name
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:41:25-77
+activity#com.aliyun.demo.effectmanager.MorePasterActivity
+ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:46:9-56:20
+	android:screenOrientation
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:49:13-49
+	android:label
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:48:13-45
+	android:theme
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:50:13-69
+	android:name
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:47:13-76
+intent-filter#android.intent.category.DEFAULT+com.duanqu.qupai.action.morepaster
+ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:51:13-55:29
+action#com.duanqu.qupai.action.morepaster
+ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:52:17-77
+	android:name
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:52:25-74
+activity#com.aliyun.demo.effectmanager.MoreCaptionActivity
+ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:57:9-67:20
+	android:screenOrientation
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:60:13-49
+	android:label
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:59:13-45
+	android:theme
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:61:13-69
+	android:name
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:58:13-77
+intent-filter#android.intent.category.DEFAULT+com.duanqu.qupai.action.morecaption
+ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:62:13-66:29
+action#com.duanqu.qupai.action.morecaption
+ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:63:17-78
+	android:name
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:63:25-75
+activity#com.aliyun.demo.effectmanager.MoreMVActivity
+ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:68:9-78:20
+	android:screenOrientation
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:71:13-49
+	android:label
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:70:13-45
+	android:theme
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:72:13-69
+	android:name
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:69:13-72
+intent-filter#android.intent.category.DEFAULT+com.duanqu.qupai.action.moremv
+ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:73:13-77:29
+action#com.duanqu.qupai.action.moremv
+ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:74:17-73
+	android:name
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:74:25-70
+activity#com.aliyun.demo.publish.PublishActivity
+ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:79:9-87:20
+	android:screenOrientation
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:82:13-49
+	android:label
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:81:13-45
+	android:theme
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:83:13-69
+	android:name
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:80:13-67
+intent-filter#android.intent.category.DEFAULT
+ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:84:13-86:29
+activity#com.aliyun.demo.publish.CoverEditActivity
+ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:88:9-96:20
+	android:screenOrientation
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:91:13-49
+	android:label
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:90:13-45
+	android:theme
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:92:13-69
+	android:name
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:89:13-69
+activity#com.aliyun.demo.publish.UploadActivity
+ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:97:9-102:72
+	android:screenOrientation
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:101:13-49
+	android:label
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:100:13-45
+	android:hardwareAccelerated
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:99:13-47
+	android:theme
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:102:13-69
+	android:name
+		ADDED from [:AliyunEditor:editor_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\manifests\full\debug\AndroidManifest.xml:98:13-66
+activity#com.aliyun.demo.importer.ImportEditSettingTest
+ADDED from [:AliyunImport:import_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunImport\import_demo\intermediates\manifests\full\debug\AndroidManifest.xml:12:9-20:20
+	android:screenOrientation
+		ADDED from [:AliyunImport:import_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunImport\import_demo\intermediates\manifests\full\debug\AndroidManifest.xml:14:13-49
+	android:name
+		ADDED from [:AliyunImport:import_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunImport\import_demo\intermediates\manifests\full\debug\AndroidManifest.xml:13:13-74
+intent-filter#android.intent.category.DEFAULT+com.duanqu.qupai.action.import.setting
+ADDED from [:AliyunImport:import_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunImport\import_demo\intermediates\manifests\full\debug\AndroidManifest.xml:15:13-19:29
+action#com.duanqu.qupai.action.import.setting
+ADDED from [:AliyunImport:import_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunImport\import_demo\intermediates\manifests\full\debug\AndroidManifest.xml:16:17-81
+	android:name
+		ADDED from [:AliyunImport:import_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunImport\import_demo\intermediates\manifests\full\debug\AndroidManifest.xml:16:25-78
+activity#com.aliyun.demo.importer.MediaActivity
+ADDED from [:AliyunImport:import_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunImport\import_demo\intermediates\manifests\full\debug\AndroidManifest.xml:21:9-29:20
+	android:screenOrientation
+		ADDED from [:AliyunImport:import_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunImport\import_demo\intermediates\manifests\full\debug\AndroidManifest.xml:23:13-49
+	android:name
+		ADDED from [:AliyunImport:import_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunImport\import_demo\intermediates\manifests\full\debug\AndroidManifest.xml:22:13-66
+intent-filter#android.intent.category.DEFAULT+com.duanqu.qupai.action.import
+ADDED from [:AliyunImport:import_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunImport\import_demo\intermediates\manifests\full\debug\AndroidManifest.xml:24:13-28:29
+action#com.duanqu.qupai.action.import
+ADDED from [:AliyunImport:import_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunImport\import_demo\intermediates\manifests\full\debug\AndroidManifest.xml:25:17-73
+	android:name
+		ADDED from [:AliyunImport:import_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunImport\import_demo\intermediates\manifests\full\debug\AndroidManifest.xml:25:25-70
+activity#com.aliyun.demo.crop.CropSettingTest
+ADDED from [:AliyunCrop:crop_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\manifests\full\debug\AndroidManifest.xml:13:9-22:20
+	android:screenOrientation
+		ADDED from [:AliyunCrop:crop_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\manifests\full\debug\AndroidManifest.xml:15:13-49
+	android:windowSoftInputMode
+		ADDED from [:AliyunCrop:crop_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\manifests\full\debug\AndroidManifest.xml:16:13-52
+	android:name
+		ADDED from [:AliyunCrop:crop_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\manifests\full\debug\AndroidManifest.xml:14:13-64
+intent-filter#android.intent.category.DEFAULT+com.duanqu.qupai.action.crop.setting
+ADDED from [:AliyunCrop:crop_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\manifests\full\debug\AndroidManifest.xml:17:13-21:29
+action#com.duanqu.qupai.action.crop.setting
+ADDED from [:AliyunCrop:crop_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\manifests\full\debug\AndroidManifest.xml:18:17-79
+	android:name
+		ADDED from [:AliyunCrop:crop_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\manifests\full\debug\AndroidManifest.xml:18:25-76
+activity#com.aliyun.demo.crop.MediaActivity
+ADDED from [:AliyunCrop:crop_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\manifests\full\debug\AndroidManifest.xml:23:9-33:20
+	android:screenOrientation
+		ADDED from [:AliyunCrop:crop_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\manifests\full\debug\AndroidManifest.xml:25:13-49
+	android:theme
+		ADDED from [:AliyunCrop:crop_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\manifests\full\debug\AndroidManifest.xml:26:13-55
+	tools:replace
+		ADDED from [:AliyunCrop:crop_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\manifests\full\debug\AndroidManifest.xml:27:13-42
+	android:name
+		ADDED from [:AliyunCrop:crop_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\manifests\full\debug\AndroidManifest.xml:24:13-62
+intent-filter#android.intent.category.DEFAULT+com.duanqu.qupai.action.crop
+ADDED from [:AliyunCrop:crop_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\manifests\full\debug\AndroidManifest.xml:28:13-32:29
+action#com.duanqu.qupai.action.crop
+ADDED from [:AliyunCrop:crop_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\manifests\full\debug\AndroidManifest.xml:29:17-71
+	android:name
+		ADDED from [:AliyunCrop:crop_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\manifests\full\debug\AndroidManifest.xml:29:25-68
+activity#com.aliyun.demo.crop.AliyunVideoCrop
+ADDED from [:AliyunCrop:crop_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\manifests\full\debug\AndroidManifest.xml:34:9-39:20
+	android:screenOrientation
+		ADDED from [:AliyunCrop:crop_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\manifests\full\debug\AndroidManifest.xml:36:13-49
+	android:theme
+		ADDED from [:AliyunCrop:crop_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\manifests\full\debug\AndroidManifest.xml:37:13-55
+	tools:replace
+		ADDED from [:AliyunCrop:crop_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\manifests\full\debug\AndroidManifest.xml:38:13-42
+	android:name
+		ADDED from [:AliyunCrop:crop_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\manifests\full\debug\AndroidManifest.xml:35:13-64
+activity#com.aliyun.demo.crop.AliyunImageCrop
+ADDED from [:AliyunCrop:crop_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\manifests\full\debug\AndroidManifest.xml:40:9-45:20
+	android:screenOrientation
+		ADDED from [:AliyunCrop:crop_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\manifests\full\debug\AndroidManifest.xml:42:13-49
+	android:theme
+		ADDED from [:AliyunCrop:crop_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\manifests\full\debug\AndroidManifest.xml:43:13-55
+	tools:replace
+		ADDED from [:AliyunCrop:crop_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\manifests\full\debug\AndroidManifest.xml:44:13-42
+	android:name
+		ADDED from [:AliyunCrop:crop_demo] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\manifests\full\debug\AndroidManifest.xml:41:13-64
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from [:AliyunFileDownLoader:downloadermanager] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunFileDownLoader\downloadermanager\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-84
+	android:name
+		ADDED from [:AliyunFileDownLoader:downloadermanager] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunFileDownLoader\downloadermanager\intermediates\manifests\full\debug\AndroidManifest.xml:13:22-81
+service#com.liulishuo.filedownloader.services.FileDownloadService
+ADDED from [:AliyunFileDownLoader:downloadermanager] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunFileDownLoader\downloadermanager\intermediates\manifests\full\debug\AndroidManifest.xml:20:9-22:49
+	android:process
+		ADDED from [:AliyunFileDownLoader:downloadermanager] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunFileDownLoader\downloadermanager\intermediates\manifests\full\debug\AndroidManifest.xml:22:13-46
+	android:name
+		ADDED from [:AliyunFileDownLoader:downloadermanager] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunFileDownLoader\downloadermanager\intermediates\manifests\full\debug\AndroidManifest.xml:21:13-85
+activity#com.aliyun.quhelp.AliyunHelperActivity
+ADDED from [:AliyunHelp] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunHelp\intermediates\manifests\full\debug\AndroidManifest.xml:12:9-21:20
+	android:screenOrientation
+		ADDED from [:AliyunHelp] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunHelp\intermediates\manifests\full\debug\AndroidManifest.xml:15:13-49
+	android:label
+		ADDED from [:AliyunHelp] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunHelp\intermediates\manifests\full\debug\AndroidManifest.xml:14:13-45
+	android:name
+		ADDED from [:AliyunHelp] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunHelp\intermediates\manifests\full\debug\AndroidManifest.xml:13:13-66
+intent-filter#android.intent.category.DEFAULT+com.duanqu.qupai.action.help
+ADDED from [:AliyunHelp] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunHelp\intermediates\manifests\full\debug\AndroidManifest.xml:16:13-20:29
+action#com.duanqu.qupai.action.help
+ADDED from [:AliyunHelp] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunHelp\intermediates\manifests\full\debug\AndroidManifest.xml:17:17-71
+	android:name
+		ADDED from [:AliyunHelp] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunHelp\intermediates\manifests\full\debug\AndroidManifest.xml:17:25-68
+activity#com.aliyun.quhelp.CopyRightActivity
+ADDED from [:AliyunHelp] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunHelp\intermediates\manifests\full\debug\AndroidManifest.xml:22:9-26:20
+	android:screenOrientation
+		ADDED from [:AliyunHelp] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunHelp\intermediates\manifests\full\debug\AndroidManifest.xml:25:13-49
+	android:label
+		ADDED from [:AliyunHelp] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunHelp\intermediates\manifests\full\debug\AndroidManifest.xml:24:13-45
+	android:name
+		ADDED from [:AliyunHelp] D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunHelp\intermediates\manifests\full\debug\AndroidManifest.xml:23:13-63
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\2ec20335875333bf7837d9f9ffdcd558\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\6150c42f9b79171896ac2dba56c26058\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\6150c42f9b79171896ac2dba56c26058\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\4ea48e4f63b0ada5c5264c2f80d89fc7\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\4ea48e4f63b0ada5c5264c2f80d89fc7\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\d5acf25ec73bde2cb240989cc9189827\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\d5acf25ec73bde2cb240989cc9189827\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\a8c4ee39ab12325954168e3004733f78\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\a8c4ee39ab12325954168e3004733f78\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\77694504b4e27f3a72e11c536e75fe1c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\77694504b4e27f3a72e11c536e75fe1c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b769db3efe8805f1fe8912e39b2c69fa\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b769db3efe8805f1fe8912e39b2c69fa\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\cb4dc8ce6365732a0be61d71bfef5362\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\cb4dc8ce6365732a0be61d71bfef5362\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\a31fc525f903add1dbd7d16976aacc55\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\a31fc525f903add1dbd7d16976aacc55\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\5b99c095af08e6293fdf825fd343c348\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\5b99c095af08e6293fdf825fd343c348\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\2ec20335875333bf7837d9f9ffdcd558\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\2ec20335875333bf7837d9f9ffdcd558\AndroidManifest.xml:27:13-51
+service#com.squareup.leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\c26c6a8eeaff804b7ae073dbb5f7ff53\AndroidManifest.xml:29:9-32:45
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\c26c6a8eeaff804b7ae073dbb5f7ff53\AndroidManifest.xml:32:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\c26c6a8eeaff804b7ae073dbb5f7ff53\AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\c26c6a8eeaff804b7ae073dbb5f7ff53\AndroidManifest.xml:30:13-80
+service#com.squareup.leakcanary.DisplayLeakService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\c26c6a8eeaff804b7ae073dbb5f7ff53\AndroidManifest.xml:33:9-35:39
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\c26c6a8eeaff804b7ae073dbb5f7ff53\AndroidManifest.xml:35:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\c26c6a8eeaff804b7ae073dbb5f7ff53\AndroidManifest.xml:34:13-70
+activity#com.squareup.leakcanary.internal.DisplayLeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\c26c6a8eeaff804b7ae073dbb5f7ff53\AndroidManifest.xml:37:9-49:20
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\c26c6a8eeaff804b7ae073dbb5f7ff53\AndroidManifest.xml:39:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\c26c6a8eeaff804b7ae073dbb5f7ff53\AndroidManifest.xml:41:13-71
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\c26c6a8eeaff804b7ae073dbb5f7ff53\AndroidManifest.xml:40:13-54
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\c26c6a8eeaff804b7ae073dbb5f7ff53\AndroidManifest.xml:43:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\c26c6a8eeaff804b7ae073dbb5f7ff53\AndroidManifest.xml:42:13-59
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\c26c6a8eeaff804b7ae073dbb5f7ff53\AndroidManifest.xml:38:13-80
+activity#com.squareup.leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\c26c6a8eeaff804b7ae073dbb5f7ff53\AndroidManifest.xml:50:9-56:68
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\c26c6a8eeaff804b7ae073dbb5f7ff53\AndroidManifest.xml:52:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\c26c6a8eeaff804b7ae073dbb5f7ff53\AndroidManifest.xml:54:13-82
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\c26c6a8eeaff804b7ae073dbb5f7ff53\AndroidManifest.xml:53:13-54
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\c26c6a8eeaff804b7ae073dbb5f7ff53\AndroidManifest.xml:56:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\c26c6a8eeaff804b7ae073dbb5f7ff53\AndroidManifest.xml:55:13-59
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\c26c6a8eeaff804b7ae073dbb5f7ff53\AndroidManifest.xml:51:13-93
+activity#com.aliyun.nativecrash.NativeCrashActivity
+ADDED from [:AliyunVideoSdk] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\AliyunSdk-RCE.aar\da301fd02897ed24cf67c6526a03c7bf\AndroidManifest.xml:15:9-79
+	android:name
+		ADDED from [:AliyunVideoSdk] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\AliyunSdk-RCE.aar\da301fd02897ed24cf67c6526a03c7bf\AndroidManifest.xml:15:19-76
+meta-data#com.bumptech.glide.integration.okhttp3.OkHttpGlideModule
+ADDED from [com.github.bumptech.glide:okhttp3-integration:1.4.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\okhttp3-integration-1.4.0.aar\d9316cfa58729dd907d5e551e9e75302\AndroidManifest.xml:12:9-14:43
+	android:value
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:1.4.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\okhttp3-integration-1.4.0.aar\d9316cfa58729dd907d5e551e9e75302\AndroidManifest.xml:14:13-40
+	android:name
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:1.4.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\okhttp3-integration-1.4.0.aar\d9316cfa58729dd907d5e551e9e75302\AndroidManifest.xml:13:13-84
+service#com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService
+ADDED from [com.liulishuo.filedownloader:library:1.4.1] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\library-1.4.1.aar\0539e7cd7c79a30d36cbe7e1bbf4feef\AndroidManifest.xml:12:9-118
+	android:name
+		ADDED from [com.liulishuo.filedownloader:library:1.4.1] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\library-1.4.1.aar\0539e7cd7c79a30d36cbe7e1bbf4feef\AndroidManifest.xml:12:18-115
+service#com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService
+ADDED from [com.liulishuo.filedownloader:library:1.4.1] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\library-1.4.1.aar\0539e7cd7c79a30d36cbe7e1bbf4feef\AndroidManifest.xml:13:9-15:49
+	android:process
+		ADDED from [com.liulishuo.filedownloader:library:1.4.1] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\library-1.4.1.aar\0539e7cd7c79a30d36cbe7e1bbf4feef\AndroidManifest.xml:15:13-46
+	android:name
+		ADDED from [com.liulishuo.filedownloader:library:1.4.1] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\library-1.4.1.aar\0539e7cd7c79a30d36cbe7e1bbf4feef\AndroidManifest.xml:14:13-108
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\7cbd5dd3cc134331dc4e1243e1206c66\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\7cbd5dd3cc134331dc4e1243e1206c66\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\86186\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\7cbd5dd3cc134331dc4e1243e1206c66\AndroidManifest.xml:26:13-58

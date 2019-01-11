@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bg_photo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="#40000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/cancel_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/alert_dialog_shape"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grayBackground">
+            <Button
+                android:background="@drawable/mybtnselector"
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_height="42dp"
+                android:textColor="@color/text_color_black"
+                android:gravity="center_vertical"
+                android:text="取消"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center_vertical"
+                android:textColor="@color/text_color_black"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/tv_complete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textColor="@color/text_color_blue"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"
+                android:textSize="20sp"
+                android:text="完成"/>
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/text_color_gray" />
+        <ListView
+            android:id="@+id/lv_choose"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/LineGrayColor"
+            android:text="_"
+            android:textColor="@color/LineGrayColor" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

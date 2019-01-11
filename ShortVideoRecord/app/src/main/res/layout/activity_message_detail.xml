@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/activity_common_right_magging"
+        android:layout_marginTop="@dimen/activity_common_top_magging">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/iv_back_width"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/back_black" />
+
+        <TextView
+            android:id="@+id/tv_tilte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="粉丝留言"
+            android:textColor="@color/text_color_black"
+            android:textSize="@dimen/activity_common_title_size"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_common_left_magging"
+        android:layout_marginRight="@dimen/activity_common_right_magging"
+        android:layout_marginTop="@dimen/activity_common_top_magging"
+        android:layout_weight="1"
+        android:divider="@color/transparent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/LineGrayColor" />
+
+    <LinearLayout
+        android:id="@+id/ll_send_message"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/actitity_common_height"
+        android:layout_marginLeft="@dimen/activity_common_left_magging"
+        android:layout_marginRight="@dimen/activity_common_right_magging"
+        android:layout_marginTop="@dimen/activity_common_top_magging"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/text_color_black"
+            android:background="@drawable/gray_rectangle_shape" />
+
+        <TextView
+            android:id="@+id/tv_submit"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/blue_circle_shape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="发送" />
+    </LinearLayout>
+</LinearLayout>

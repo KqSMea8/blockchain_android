@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/transparent"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/activity_common_left_magging"
+        android:layout_marginRight="@dimen/activity_common_right_magging"
+        android:layout_height="wrap_content">
+    <com.blockchain.shortvideoplayer.widget.CircleImageView
+        android:id="@+id/iv_head"
+        android:layout_width="28dp"
+        android:src="@mipmap/loadding"
+        android:layout_height="28dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tv_nickname"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/activity_common_left_magging"
+        android:layout_toRightOf="@+id/iv_head"
+        android:textSize="@dimen/alivc_info_text_large_size"
+        android:text="一生所爱"
+        android:textColor="@color/text_color_yellow"
+        android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_color_light_black"
+            android:textSize="@dimen/alivc_info_text_small_size"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="18:56"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_marginLeft="48dp"
+        android:text="11111"
+        android:textColor="@color/text_color_light_black"
+        android:textSize="@dimen/alivc_info_text_large_size"
+        android:layout_width="match_parent"
+        android:maxLines="3"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="@dimen/activity_common_right_magging"
+        android:layout_height="wrap_content">
+        <com.blockchain.vodplayerview.widget.AliyunVodPlayerView
+            android:id="@+id/video_view"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+        <com.blockchain.shortvideoplayer.widget.MyImageView
+            android:id="@+id/iv_thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+        <ImageView
+            android:id="@+id/iv_play"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="@dimen/activity_common_left_magging"
+            android:src="@mipmap/play"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</LinearLayout>

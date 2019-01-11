@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MessageFansActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_common_top_magging"
+        android:layout_marginRight="@dimen/activity_common_right_magging">
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/iv_back_width"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/back_black"/>
+
+        <TextView
+            android:id="@+id/tv_tilte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_color_black"
+            android:textSize="@dimen/activity_common_title_size"
+            android:textStyle="bold"
+            android:text="粉丝留言" />
+
+    </RelativeLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_message"
+        android:layout_marginTop="@dimen/activity_common_top_magging"
+        android:layout_marginLeft="@dimen/activity_common_left_magging"
+        android:layout_marginRight="@dimen/activity_common_right_magging"/>
+</LinearLayout>

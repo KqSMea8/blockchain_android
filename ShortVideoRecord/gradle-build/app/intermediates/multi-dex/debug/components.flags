@@ -1,0 +1,91 @@
+-injars 'C:\Users\86186\.gradle\caches\transforms-1\files-1.1\crashreport-2.8.6.0.aar\5f331836a0c79f4c4ef471949c93c12d\jars\classes.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\53c9cd70dc8a1b79f6a2cb6cff3c29c1\jars\classes.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\ad2e544bcabd0b954b22081fbca13cfd\jars\classes.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\transforms-1\files-1.1\easypermissions-0.2.1.aar\9c96c842d883656af1cd15ee91aee2ae\jars\classes.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\transforms-1\files-1.1\design-24.2.1.aar\bb0ee80a39faec6afa4cd27b026711bf\jars\classes.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\2ec20335875333bf7837d9f9ffdcd558\jars\classes.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\6150c42f9b79171896ac2dba56c26058\jars\classes.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\4ea48e4f63b0ada5c5264c2f80d89fc7\jars\classes.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.4.5.aar\34ecc9c20bec64050d226933d0c1f680\jars\classes.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\c26c6a8eeaff804b7ae073dbb5f7ff53\jars\classes.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\transforms-1\files-1.1\okhttp3-integration-1.4.0.aar\d9316cfa58729dd907d5e551e9e75302\jars\classes.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\modules-2\files-2.1\org.greenrobot\eventbus\3.1.1\5cd91fd014f5b72292f959748c20a2cefefae77d\eventbus-3.1.1.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\transforms-1\files-1.1\library-1.4.1.aar\0539e7cd7c79a30d36cbe7e1bbf4feef\jars\classes.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\modules-2\files-2.1\org.apache.ant\ant\1.7.1\1d33711018e7649a8427fff62a87f94f4e7d310f\ant-1.7.1.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\modules-2\files-2.1\com.android.support.constraint\constraint-layout-solver\1.1.2\bfc967828daffc35ba01c9ee204d98b664930a0f\constraint-layout-solver-1.1.2.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\d5acf25ec73bde2cb240989cc9189827\jars\classes.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\a8c4ee39ab12325954168e3004733f78\jars\classes.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\77694504b4e27f3a72e11c536e75fe1c\jars\classes.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b769db3efe8805f1fe8912e39b2c69fa\jars\classes.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\cb4dc8ce6365732a0be61d71bfef5362\jars\classes.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\a31fc525f903add1dbd7d16976aacc55\jars\classes.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\5b99c095af08e6293fdf825fd343c348\jars\classes.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.1.0\814258103cf26a15fcc26ecce35f5b7d24b73f8\support-annotations-26.1.0.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\modules-2\files-2.1\com.squareup.leakcanary\leakcanary-analyzer\1.5\3277b0b0c2ace34a2edb5ddf9d1f67829561fb8f\leakcanary-analyzer-1.5.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\modules-2\files-2.1\org.apache.ant\ant-launcher\1.7.1\a9cbbcefbbb5e7f97596045268243a8c1c7aafca\ant-launcher-1.7.1.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\modules-2\files-2.1\com.squareup.haha\haha\2.0.3\640a438d2d415c056ca6a673ac26b183b044e160\haha-2.0.3.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\modules-2\files-2.1\com.squareup.leakcanary\leakcanary-watcher\1.5\288101b16513158c2923ad3fb6161d1452b65e73\leakcanary-watcher-1.5.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\7cbd5dd3cc134331dc4e1243e1206c66\jars\classes.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.0\e414a4cb28434e25c4f6aa71426eb20cf4874ae9\common-1.0.0.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar'(**.class)
+-injars 'D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\intermediate-jars\debug\classes.jar'(**.class)
+-injars 'D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\intermediate-jars\debug\classes.jar'(**.class)
+-injars 'D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunImport\import_demo\intermediates\intermediate-jars\debug\classes.jar'(**.class)
+-injars 'D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\intermediate-jars\debug\classes.jar'(**.class)
+-injars 'D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunFileDownLoader\downloadermanager\intermediates\intermediate-jars\debug\classes.jar'(**.class)
+-injars 'D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunView\intermediates\intermediate-jars\debug\classes.jar'(**.class)
+-injars 'D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunHelp\intermediates\intermediate-jars\debug\classes.jar'(**.class)
+-injars 'D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\AliyunResample\intermediates\intermediate-jars\debug\classes.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\transforms-1\files-1.1\AliyunSdk-RCE.aar\da301fd02897ed24cf67c6526a03c7bf\jars\classes.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\transforms-1\files-1.1\AliyunSdk-RCE.aar\da301fd02897ed24cf67c6526a03c7bf\jars\libs\aliyun-vod-core-android-sdk-1.2.2.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\transforms-1\files-1.1\AliyunSdk-RCE.aar\da301fd02897ed24cf67c6526a03c7bf\jars\libs\aliyun-vod-upload-android-sdk-1.4.0.jar'(**.class)
+-injars 'C:\Users\86186\.gradle\caches\transforms-1\files-1.1\AliyunSdk-RCE.aar\da301fd02897ed24cf67c6526a03c7bf\jars\libs\AliyunVideoSdk-3.6.5-pro-2018.07.25.jar'(**.class)
+-injars 'D:\asproject\blockchain_android\ShortVideoRecord\AlivcCore\AlivcCore.jar'(**.class)
+-injars 'D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\classes\debug'(**.class)
+-outjars 'D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'D:\soft\android\studio-sdk\sdk\build-tools\26.0.2\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration 'D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\multi-dex\debug\components.flags'
+
+
+# Referenced at D:\asproject\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\debug\AndroidManifest.xml:37
+-keep class com.blochchain.shortvideorecord.activity.BaseApplication {
+    <init>(...);
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.ir.** {
+    <fields>;
+    <methods>;
+}

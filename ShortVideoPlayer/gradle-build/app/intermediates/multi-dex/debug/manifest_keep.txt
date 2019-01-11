@@ -1,0 +1,3 @@
+# Referenced at D:\asprojects\blockchain_android\ShortVideoPlayer\gradle-build\app\intermediates\manifests\full\debug\AndroidManifest.xml:31
+-keep class com.blockchain.shortvideoplayer.MutiApplication { <init>(...); }
+

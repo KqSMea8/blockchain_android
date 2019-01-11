@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spingar">
+        <item>新加坡</item>
+        <item>上海</item>
+        <!--<item>日常</item>-->
+    </string-array>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"转到主屏幕"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s：%2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s - %2$s：%3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"转到上一层级"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多选项"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"选择应用"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"关闭"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"开启"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"搜索…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查询"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜索查询"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查询"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"语音搜索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"分享方式"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"通过%s分享"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收起"</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_music_audio_time">音频时间</string>
+    <string name="add_music_end_time">结束时间(ms)</string>
+    <string name="add_music_play_time">播放时间</string>
+    <string name="add_music_start_time">开始时间(ms)</string>
+    <string name="aliyun_action_settings">Settings</string>
+    <string name="aliyun_bit_rate">码率(kbps)</string>
+    <string name="aliyun_bit_rate_hint">建议600-2000，默认1000</string>
+    <string name="aliyun_bitrate">码率</string>
+    <string name="aliyun_bitrate_hint">默认为0，根据视频质量参数计算</string>
+    <string name="aliyun_camera_permission_tip">请开启摄像头权限</string>
+    <string name="aliyun_complete">完成</string>
+    <string name="aliyun_compose">合成中</string>
+    <string name="aliyun_delete">回删</string>
+    <string name="aliyun_download_failed">下载失败</string>
+    <string name="aliyun_empty_music">无音乐</string>
+    <string name="aliyun_ffmpeg_encoder">FFmpeg软编</string>
+    <string name="aliyun_filter_null">原片</string>
+    <string name="aliyun_frame_rate">帧率</string>
+    <string name="aliyun_frame_rate_hint">建议20-30，默认25</string>
+    <string name="aliyun_gop">关键帧间隔</string>
+    <string name="aliyun_gop_hint">建议1-300，默认5 </string>
+    <string name="aliyun_hardware_encoder">硬编</string>
+    <string name="aliyun_local_music">本地音乐</string>
+    <string name="aliyun_max_record_duration">最大时长</string>
+    <string name="aliyun_max_record_duration_hint">建议不超过300S，默认值30S</string>
+    <string name="aliyun_min_record_duration">最小时长</string>
+    <string name="aliyun_min_record_duration_hint">最小时长大于0，默认值2S</string>
+    <string name="aliyun_network_not_connect">网络没有连接，请检查网络</string>
+    <string name="aliyun_no_free_memory">剩余磁盘空间不足</string>
+    <string name="aliyun_no_import_moudle">当前不包含导入模块</string>
+    <string name="aliyun_online_music">在线音乐</string>
+    <string name="aliyun_openh264_encoder">OpenH264软编</string>
+    <string name="aliyun_permission_camera_mic">请求相机和麦克风权限</string>
+    <string name="aliyun_rate_fast">快</string>
+    <string name="aliyun_rate_slow">慢</string>
+    <string name="aliyun_rate_standard">标准</string>
+    <string name="aliyun_rate_very_fast">极快</string>
+    <string name="aliyun_rate_very_slow">极慢</string>
+    <string name="aliyun_ratio">视频比例</string>
+    <string name="aliyun_recoder_duration_error">最小时长不能大于最大时长, 请重新设置!!!</string>
+    <string name="aliyun_record_ratio_1_1">1:1</string>
+    <string name="aliyun_record_ratio_3_4">3:4</string>
+    <string name="aliyun_record_resolution_360p">360p</string>
+    <string name="aliyun_record_resolution_480p">480p</string>
+    <string name="aliyun_record_resolution_540p">540p</string>
+    <string name="aliyun_record_resolution_720p">720p</string>
+    <string name="aliyun_reocrd_ratio_9_16">9:16</string>
+    <string name="aliyun_res_copy">资源拷贝中</string>
+    <string name="aliyun_resolution">分辨率</string>
+    <string name="aliyun_select_music">选择音乐</string>
+    <string name="aliyun_start_record">启动录制</string>
+    <string name="aliyun_svideo_editor_init_failed">编辑器初始化失败</string>
+    <string name="aliyun_svideo_effect">特效</string>
+    <string name="aliyun_svideo_filter">滤镜</string>
+    <string name="aliyun_svideo_time_effect_all">全程</string>
+    <string name="aliyun_svideo_time_effect_moment">某刻</string>
+    <string name="aliyun_svideo_time_effect_not_support">时间特效不支持多段视频</string>
+    <string name="aliyun_video_codec">视频编码方式</string>
+    <string name="aliyun_video_quality">视频质量</string>
+    <string name="aliyun_video_quality_high">高</string>
+    <string name="aliyun_video_quality_low">低</string>
+    <string name="aliyun_video_quality_meidan">中</string>
+    <string name="aliyun_video_quality_super">极高</string>
+    <string name="aliyun_video_save_tip">当前拍摄的视频已保存相册</string>
+    <string name="app_name">短视频录制</string>
+    <string name="backtoeditorandtryagain">请返回编辑稍后再试</string>
+    <string name="cancel">取消</string>
+    <string name="cancel_more_mv_edit">取消</string>
+    <string name="compose_failed">合成失败</string>
+    <string name="compose_success">合成成功</string>
+    <string name="composing">视频合成中</string>
+    <string name="countoflimit">最多不超过20个字</string>
+    <string name="crop">导入裁剪</string>
+    <string name="crop_mode">裁剪模式</string>
+    <string name="delete_effect_manager">删除</string>
+    <string name="download_effect_edit">下载</string>
+    <string name="edit">导入编辑</string>
+    <string name="edit_cover">选择封面</string>
+    <string name="edit_nav_edit">编辑</string>
+    <string name="edit_nav_save_and_share">保存／分享></string>
+    <string name="effect_mananger_nav_edit">特效管理</string>
+    <string name="empty_music">无音乐</string>
+    <string name="font_effect_manager">字体</string>
+    <string name="frame_rate">帧率</string>
+    <string name="frame_rate_hint">建议20-30，默认25</string>
+    <string name="gallery_all_media">相机胶卷</string>
+    <string name="go_ahead_compose">继续合成</string>
+    <string name="goback_to_editor">返回编辑</string>
+    <string name="gop">关键帧间隔</string>
+    <string name="gop_hint">建议1-300，默认125</string>
+    <string name="has_no_network">网络不给力，请检查网络</string>
+    <string name="help">其他</string>
+    <string name="import_edit">导入编辑</string>
+    <string name="input_video_desc">你可以在合成中添加视频描述...</string>
+    <string name="kbps">码率(kbps)</string>
+    <string name="kbps_hint">建议600-2000，默认0由视频质量参数计算</string>
+    <string name="live">直播</string>
+    <string name="local_music">本地音乐</string>
+    <string name="magic_camera">魔法相机</string>
+    <string name="material_downloading_failure">素材下载失败！</string>
+    <string name="message_max_duration_import">视频总时长不超过5分钟，请裁剪后继续!</string>
+    <string name="mode_crop">画面裁剪</string>
+    <string name="mode_fill">画面填充</string>
+    <string name="more">更多</string>
+    <string name="more_caption_nav_edit">更多字幕</string>
+    <string name="more_motion_sticker_nav_edit">更多动图</string>
+    <string name="more_mv_nav_edit">更多MV</string>
+    <string name="motion_sticker_effect_manager">动图</string>
+    <string name="music_effect_manager">音乐</string>
+    <string name="music_origin">原音</string>
+    <string name="mv_effect_manager">MV</string>
+    <string name="mv_message">请先移除MV效果再添加音乐</string>
+    <string name="my_music">我的音乐</string>
+    <string name="my_video">我的视频</string>
+    <string name="need_permission">请给予相应的权限</string>
+    <string name="next_camera_roll_import">下一步</string>
+    <string name="no_free_memory">剩余磁盘空间不足</string>
+    <string name="none_effect">原片</string>
+    <string name="not_shutdown_app">请不要关闭应用</string>
+    <string name="not_supported_audio">不支持的音频格式</string>
+    <string name="not_supported_pixel_format">不支持的文件</string>
+    <string name="not_supported_video">不支持的视频格式</string>
+    <string name="play_video_error">该视频为错误视频</string>
+    <string name="please_select_video">请选择视频</string>
+    <string name="publish">发布</string>
+    <string name="qupai_text_count_outof">字数超出限制</string>
+    <string name="record">拍摄</string>
+    <string name="res_copy">资源拷贝中</string>
+    <string name="resetstr">切换成功，正在重新加载数据...</string>
+    <string name="resolution">分辨率</string>
+    <string name="resolution_1_1">540*540</string>
+    <string name="resolution_3_4">540*720</string>
+    <string name="resolution_9_16">540*960</string>
+    <string name="sdcard_not_ready">SDCARD 没有准备好</string>
+    <string msgid="146198913615257606" name="search_menu_title">"搜索"</string>
+    <string name="select_cover">选择封面</string>
+    <string name="solution_apsarav">ApsaraV</string>
+    <string name="solution_camera">魔法相机</string>
+    <string name="solution_crop">视频裁剪</string>
+    <string name="solution_edit">视频编辑</string>
+    <string name="solution_live_room">互动直播</string>
+    <string name="solution_player">视频播放</string>
+    <string name="solution_push">直播推流</string>
+    <string name="solution_recorder">视频拍摄</string>
+    <string name="solution_svideo">短视频</string>
+    <string name="solution_unable_merge_remind">上传和短视频存在冲突,协调解决中..</string>
+    <string name="solution_upload">视频上传</string>
+    <string name="solution_wait_remind">产品功能正在开发中...</string>
+    <string name="start_import">开始导入</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="subtitle_effect_manager">字幕</string>
+    <string name="timeline_curr_time">%1$02d:%2$02d</string>
+    <string name="total_duration_label_import">总时长</string>
+    <string name="transcode">转码中</string>
+    <string name="ui">UI组件</string>
+    <string name="upload_failed">上传失败</string>
+    <string name="upload_success">上传成功</string>
+    <string name="uploading">正在上传 0%</string>
+    <string name="use_effect_edit">使用</string>
+    <string name="video_composeing_cancel_or_go">正在进行视频合成，确定要放弃合成吗？</string>
+    <string name="video_crop_erroe">视频格式不支持</string>
+    <string name="video_duration">%1$02d:%2$02d:%3$02d</string>
+    <string name="video_duration_5min_tip">请将视频长度控制在5分钟以内</string>
+    <string name="video_quality">视频质量</string>
+    <string name="video_quality_high">高</string>
+    <string name="video_quality_low">低</string>
+    <string name="video_quality_meidan">中</string>
+    <string name="video_quality_super">极高</string>
+    <string name="wait">请稍候</string>
+</resources>

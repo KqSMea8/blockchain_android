@@ -1,0 +1,410 @@
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\app\src\main\res\layout\activity_record.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\bundles\release\res\layout\aliyun_svideo_activity_camera_demo.xml:0
+-keep class android.opengl.GLSurfaceView { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\design-24.2.1.aar\bb0ee80a39faec6afa4cd27b026711bf\res\layout\design_navigation_item.xml:0
+-keep class android.support.design.internal.NavigationMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\design-24.2.1.aar\bb0ee80a39faec6afa4cd27b026711bf\res\layout\design_navigation_menu.xml:0
+-keep class android.support.design.internal.NavigationMenuView { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\design-24.2.1.aar\bb0ee80a39faec6afa4cd27b026711bf\res\layout\design_text_input_password_icon.xml:0
+-keep class android.support.design.widget.CheckableImageButton { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\design-24.2.1.aar\bb0ee80a39faec6afa4cd27b026711bf\res\layout\design_bottom_sheet_dialog.xml:0
+-keep class android.support.design.widget.CoordinatorLayout { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\design-24.2.1.aar\bb0ee80a39faec6afa4cd27b026711bf\res\layout-sw600dp-v13\design_layout_snackbar.xml:0
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\design-24.2.1.aar\bb0ee80a39faec6afa4cd27b026711bf\res\layout\design_layout_snackbar.xml:0
+-keep class android.support.design.widget.Snackbar$SnackbarLayout { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_activity_effect_manager.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_qupai_row_text_bottom.xml:0
+-keep class android.support.design.widget.TabLayout { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\app\src\main\res\layout\activity_solution_main.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_activity_effect_manager.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_layout_filter_container.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_music_view.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_qupai_row_text_bottom.xml:0
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7e11bffed0281425b9153cc431684e20\res\layout\abc_alert_dialog_material.xml:0
+-keep class android.support.v4.widget.NestedScrollView { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7e11bffed0281425b9153cc431684e20\res\layout\abc_alert_dialog_button_bar_material.xml:0
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7e11bffed0281425b9153cc431684e20\res\layout\abc_alert_dialog_material.xml:0
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7e11bffed0281425b9153cc431684e20\res\layout\abc_alert_dialog_title_material.xml:0
+-keep class android.support.v4.widget.Space { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7e11bffed0281425b9153cc431684e20\res\layout\abc_select_dialog_material.xml:0
+-keep class android.support.v7.app.AlertController$RecycleListView { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7e11bffed0281425b9153cc431684e20\res\layout\abc_action_menu_item_layout.xml:0
+-keep class android.support.v7.view.menu.ActionMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7e11bffed0281425b9153cc431684e20\res\layout\abc_expanded_menu_layout.xml:0
+-keep class android.support.v7.view.menu.ExpandedMenuView { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7e11bffed0281425b9153cc431684e20\res\layout\abc_list_menu_item_layout.xml:0
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7e11bffed0281425b9153cc431684e20\res\layout\abc_popup_menu_item_layout.xml:0
+-keep class android.support.v7.view.menu.ListMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7e11bffed0281425b9153cc431684e20\res\layout-v26\abc_screen_toolbar.xml:0
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7e11bffed0281425b9153cc431684e20\res\layout\abc_screen_toolbar.xml:0
+-keep class android.support.v7.widget.ActionBarContainer { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7e11bffed0281425b9153cc431684e20\res\layout-v26\abc_screen_toolbar.xml:0
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7e11bffed0281425b9153cc431684e20\res\layout\abc_action_mode_bar.xml:0
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7e11bffed0281425b9153cc431684e20\res\layout\abc_screen_toolbar.xml:0
+-keep class android.support.v7.widget.ActionBarContextView { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7e11bffed0281425b9153cc431684e20\res\layout-v26\abc_screen_toolbar.xml:0
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7e11bffed0281425b9153cc431684e20\res\layout\abc_screen_toolbar.xml:0
+-keep class android.support.v7.widget.ActionBarOverlayLayout { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7e11bffed0281425b9153cc431684e20\res\layout\abc_action_menu_layout.xml:0
+-keep class android.support.v7.widget.ActionMenuView { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7e11bffed0281425b9153cc431684e20\res\layout\abc_activity_chooser_view.xml:0
+-keep class android.support.v7.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7e11bffed0281425b9153cc431684e20\res\layout\abc_alert_dialog_material.xml:0
+-keep class android.support.v7.widget.AlertDialogLayout { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7e11bffed0281425b9153cc431684e20\res\layout\abc_alert_dialog_button_bar_material.xml:0
+-keep class android.support.v7.widget.ButtonBarLayout { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7e11bffed0281425b9153cc431684e20\res\layout\abc_screen_content_include.xml:0
+-keep class android.support.v7.widget.ContentFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7e11bffed0281425b9153cc431684e20\res\layout\abc_alert_dialog_title_material.xml:0
+-keep class android.support.v7.widget.DialogTitle { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7e11bffed0281425b9153cc431684e20\res\layout\abc_screen_simple_overlay_action_mode.xml:0
+-keep class android.support.v7.widget.FitWindowsFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7e11bffed0281425b9153cc431684e20\res\layout\abc_dialog_title_material.xml:0
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7e11bffed0281425b9153cc431684e20\res\layout\abc_screen_simple.xml:0
+-keep class android.support.v7.widget.FitWindowsLinearLayout { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\app\src\main\res\layout\activity_demo.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\app\src\main\res\layout\activity_record.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\bundles\release\res\layout\aliyun_svideo_activity_media.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\bundles\release\res\layout\aliyun_svideo_layout_qupai_effect_container_normal.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_activity_editor.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_activity_effect_fragment.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_activity_effect_view.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_activity_more_paster.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_caption_view.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_filter_view.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_overlay_view.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_paint_view.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunImport\import_demo\intermediates\bundles\release\res\layout\aliyun_svideo_import_activity_media.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunImport\import_demo\intermediates\bundles\release\res\layout\aliyun_svideo_import_layout_qupai_effect_container_normal.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\bundles\release\res\layout\aliyun_svideo_activity_camera_demo.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\bundles\release\res\layout\aliyun_svideo_activity_music.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\bundles\release\res\layout\aliyun_video_layout_effect_list.xml:0
+-keep class android.support.v7.widget.RecyclerView { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7e11bffed0281425b9153cc431684e20\res\layout\abc_search_view.xml:0
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7e11bffed0281425b9153cc431684e20\res\layout-v26\abc_screen_toolbar.xml:0
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7e11bffed0281425b9153cc431684e20\res\layout\abc_screen_toolbar.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_activity_action_bar.xml:0
+-keep class android.support.v7.widget.Toolbar { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7e11bffed0281425b9153cc431684e20\res\layout\abc_screen_simple.xml:0
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\7e11bffed0281425b9153cc431684e20\res\layout\abc_screen_simple_overlay_action_mode.xml:0
+-keep class android.support.v7.widget.ViewStubCompat { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:281
+-keep class com.aliyun.demo.crop.AliyunImageCrop { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:276
+-keep class com.aliyun.demo.crop.AliyunVideoCrop { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:256
+-keep class com.aliyun.demo.crop.CropSettingTest { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:266
+-keep class com.aliyun.demo.crop.MediaActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:151
+-keep class com.aliyun.demo.editor.EditorActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:170
+-keep class com.aliyun.demo.effectmanager.EffectManagerActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:192
+-keep class com.aliyun.demo.effectmanager.MoreCaptionActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:203
+-keep class com.aliyun.demo.effectmanager.MoreMVActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:181
+-keep class com.aliyun.demo.effectmanager.MorePasterActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:238
+-keep class com.aliyun.demo.importer.ImportEditSettingTest { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:247
+-keep class com.aliyun.demo.importer.MediaActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:223
+-keep class com.aliyun.demo.publish.CoverEditActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:214
+-keep class com.aliyun.demo.publish.PublishActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:232
+-keep class com.aliyun.demo.publish.UploadActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\bundles\release\res\layout\aliyun_svideo_activity_recorder_demo.xml:0
+-keep class com.aliyun.demo.recorder.AliyunSVideoGlSurfaceView { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:141
+-keep class com.aliyun.demo.recorder.AliyunVideoRecorder { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:113
+-keep class com.aliyun.demo.recorder.CameraDemo { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:137
+-keep class com.aliyun.demo.recorder.MusicActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:123
+-keep class com.aliyun.demo.recorder.RecorderSettingTest { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:132
+-keep class com.aliyun.demo.recorder.VideoPlayActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_qupai_paster_caption.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_qupai_paster_gif.xml:0
+-keep class com.aliyun.demo.widget.AliyunPasterWithImageView { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_qupai_paster_text.xml:0
+-keep class com.aliyun.demo.widget.AliyunPasterWithTextView { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_qupai_row_text_bottom.xml:0
+-keep class com.aliyun.demo.widget.AutoResizingEditText { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_qupai_paster_caption.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_qupai_paster_text.xml:0
+-keep class com.aliyun.demo.widget.AutoResizingTextView { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:339
+-keep class com.aliyun.nativecrash.NativeCrashActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:291
+-keep class com.aliyun.quhelp.AliyunHelperActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:301
+-keep class com.aliyun.quhelp.CopyRightActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\app\src\main\res\layout\activity_record.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_layout_effect_manager_list_item.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_music_item_view.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\bundles\release\res\layout\aliyun_svideo_activity_camera_demo.xml:0
+-keep class com.aliyun.quview.CircleProgressBar { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_category_item_view.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_overlay_item_view.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_resources_item_view.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\bundles\release\res\layout\aliyun_svideo_item_asset.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\bundles\release\res\layout\layout_mv_item.xml:0
+-keep class com.aliyun.quview.CircularImageView { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\app\src\main\res\layout\activity_record.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\bundles\release\res\layout\aliyun_svideo_activity_crop.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\bundles\release\res\layout\aliyun_svideo_activity_image_crop.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\bundles\release\res\layout\aliyun_svideo_activity_camera_demo.xml:0
+-keep class com.aliyun.quview.FanProgressBar { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\bundles\release\res\layout\aliyun_svideo_activity_crop.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunImport\import_demo\intermediates\bundles\release\res\layout\aliyun_svideo_import_activity_crop.xml:0
+-keep class com.aliyun.quview.HorizontalListView { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_music_item_view.xml:0
+-keep class com.aliyun.quview.MarqueeText { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\bundles\release\res\layout\aliyun_svideo_layout_music_item.xml:0
+-keep class com.aliyun.quview.MusicHorizontalScrollView { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\bundles\release\res\layout\aliyun_svideo_layout_music_item.xml:0
+-keep class com.aliyun.quview.MusicWaveView { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_layout_filter_container.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_music_view.xml:0
+-keep class com.aliyun.quview.PagerSlidingTabStrip { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\app\src\main\res\layout\activity_record.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\bundles\release\res\layout\aliyun_svideo_activity_camera_demo.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\bundles\release\res\layout\aliyun_svideo_activity_recorder_demo.xml:0
+-keep class com.aliyun.quview.RecordTimelineView { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\bundles\release\res\layout\aliyun_svideo_item_qupai_gallery_media.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunImport\import_demo\intermediates\bundles\release\res\layout\aliyun_svideo_import_item_qupai_gallery_media.xml:0
+-keep class com.aliyun.quview.RoundSquareView { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\bundles\release\res\layout\aliyun_svideo_item_qupai_gallery_media.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\bundles\release\res\layout\aliyun_svideo_item_qupai_trim_video_thumbnail.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_activity_publish.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_imv_preview_dialog_layout.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_layout_item_timeline_thumbnail.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunImport\import_demo\intermediates\bundles\release\res\layout\aliyun_svideo_import_item_qupai_gallery_media.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunImport\import_demo\intermediates\bundles\release\res\layout\aliyun_svideo_import_item_qupai_trim_video_thumbnail.xml:0
+-keep class com.aliyun.quview.SquareFrameLayout { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\bundles\release\res\layout\aliyun_svideo_activity_crop.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunImport\import_demo\intermediates\bundles\release\res\layout\aliyun_svideo_import_activity_crop.xml:0
+-keep class com.aliyun.quview.VideoSliceSeekBar { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\bundles\release\res\layout\aliyun_svideo_activity_crop.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunCrop\crop_demo\intermediates\bundles\release\res\layout\aliyun_svideo_activity_image_crop.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunImport\import_demo\intermediates\bundles\release\res\layout\aliyun_svideo_import_activity_crop.xml:0
+-keep class com.aliyun.quview.VideoTrimFrameLayout { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_overlay_view.xml:0
+-keep class com.aliyun.quview.pagerecyclerview.PageIndicatorView { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunEditor\editor_demo\intermediates\bundles\release\res\layout\aliyun_svideo_overlay_view.xml:0
+-keep class com.aliyun.quview.pagerecyclerview.PageRecyclerView { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:36
+-keep class com.blochchain.shortvideorecord.activity.BaseApplication { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:107
+-keep class com.blochchain.shortvideorecord.activity.ChangePhoneActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:65
+-keep class com.blochchain.shortvideorecord.activity.DemoActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:93
+-keep class com.blochchain.shortvideorecord.activity.EditVideoActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:86
+-keep class com.blochchain.shortvideorecord.activity.FansPortraitActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:108
+-keep class com.blochchain.shortvideorecord.activity.HelpCenterActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:88
+-keep class com.blochchain.shortvideorecord.activity.IncomeDetailActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:79
+-keep class com.blochchain.shortvideorecord.activity.LoginActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:72
+-keep class com.blochchain.shortvideorecord.activity.Main2Activity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:54
+-keep class com.blochchain.shortvideorecord.activity.MainActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:94
+-keep class com.blochchain.shortvideorecord.activity.MediaAuthenticationActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:109
+-keep class com.blochchain.shortvideorecord.activity.MessageActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:112
+-keep class com.blochchain.shortvideorecord.activity.MessageDetailActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:110
+-keep class com.blochchain.shortvideorecord.activity.MessageFansActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:105
+-keep class com.blochchain.shortvideorecord.activity.MyBankCardActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:100
+-keep class com.blochchain.shortvideorecord.activity.MyInfromationActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:90
+-keep class com.blochchain.shortvideorecord.activity.OperationSuccessActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:95
+-keep class com.blochchain.shortvideorecord.activity.PerfectInformationActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:87
+-keep class com.blochchain.shortvideorecord.activity.PlayDataActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:69
+-keep class com.blochchain.shortvideorecord.activity.RecordActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:43
+-keep class com.blochchain.shortvideorecord.activity.SplashActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:106
+-keep class com.blochchain.shortvideorecord.activity.SystemSettingActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:111
+-keep class com.blochchain.shortvideorecord.activity.UploadActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:89
+-keep class com.blochchain.shortvideorecord.activity.WithdrawActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:91
+-keep class com.blochchain.shortvideorecord.activity.WithdrawDetailActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:92
+-keep class com.blochchain.shortvideorecord.activity.WithdrawDetailResultActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\app\src\main\res\layout\activity_play_data.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\app\src\main\res\layout\pager_income.xml:0
+-keep class com.blochchain.shortvideorecord.support.PercentLinearLayout { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\app\src\main\res\layout\activity_play_data.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\app\src\main\res\layout\pager_income.xml:0
+-keep class com.blochchain.shortvideorecord.support.PercentRelativeLayout { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\app\src\main\res\layout\activity_my_infromation.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\app\src\main\res\layout\activity_perfect_information.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\app\src\main\res\layout\pager_main.xml:0
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\app\src\main\res\layout\pager_mine.xml:0
+-keep class com.blochchain.shortvideorecord.widget.CircleImageView { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\app\src\main\res\layout\activity_fans_portrait.xml:0
+-keep class com.blochchain.shortvideorecord.widget.PieChart { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\app\src\main\res\layout\message_item.xml:0
+-keep class com.blockchain.shortvideoplayer.widget.CircleImageView { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:287
+-keep class com.liulishuo.filedownloader.services.FileDownloadService { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:346
+-keep class com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:345
+-keep class com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:315
+-keep class com.squareup.leakcanary.DisplayLeakService { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:319
+-keep class com.squareup.leakcanary.internal.DisplayLeakActivity { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\435d6b4a5398d09cc2116237c17555e7\res\layout\leak_canary_ref_row.xml:0
+-keep class com.squareup.leakcanary.internal.DisplayLeakConnectorView { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:311
+-keep class com.squareup.leakcanary.internal.HeapAnalyzerService { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.aar\435d6b4a5398d09cc2116237c17555e7\res\layout\leak_canary_ref_row.xml:0
+-keep class com.squareup.leakcanary.internal.MoreDetailsView { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\app\intermediates\manifests\full\release\AndroidManifest.xml:332
+-keep class com.squareup.leakcanary.internal.RequestStoragePermissionActivity { <init>(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunImport\import_demo\intermediates\bundles\release\res\layout\aliyun_svideo_import_activity_media.xml:0
+-keepclassmembers class * { *** onClick(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\bundles\release\res\layout\aliyun_svideo_activity_setting.xml:0
+-keepclassmembers class * { *** openBeauty(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\bundles\release\res\layout\aliyun_svideo_activity_setting.xml:0
+-keepclassmembers class * { *** openFaceDetect(...); }
+
+# Referenced at D:\asprojects\blockchain_android\ShortVideoRecord\gradle-build\AliyunRecorder\record_demo\intermediates\bundles\release\res\layout\aliyun_svideo_activity_setting.xml:0
+-keepclassmembers class * { *** start(...); }
+

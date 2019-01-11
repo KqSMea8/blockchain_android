@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.blockchain.shortvideorecord">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/> -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:name="com.blochchain.shortvideorecord.activity.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.blochchain.shortvideorecord.activity.SplashActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan">
+             <intent-filter>
+             <action android:name="android.intent.action.MAIN" />
+             <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.blochchain.shortvideorecord.activity.MainActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="com.aliyun.alivcsolution.main" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.blochchain.shortvideorecord.activity.DemoActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.blochchain.shortvideorecord.activity.RecordActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.Main2Activity">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity android:name="com.blochchain.shortvideorecord.activity.LoginActivity">
+             <!--<intent-filter>-->
+             <!--<action android:name="android.intent.action.MAIN" />-->
+             <!--<category android:name="android.intent.category.LAUNCHER" />-->
+             <!--</intent-filter>-->
+        </activity>
+        <activity android:name="com.blochchain.shortvideorecord.activity.FansPortraitActivity" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.PlayDataActivity" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.IncomeDetailActivity" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.WithdrawActivity" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.OperationSuccessActivity" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.WithdrawDetailActivity" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.WithdrawDetailResultActivity" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.EditVideoActivity" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.MediaAuthenticationActivity" />
+        <activity
+            android:name="com.blochchain.shortvideorecord.activity.PerfectInformationActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="com.blochchain.shortvideorecord.activity.MyInfromationActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.MyBankCardActivity" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.SystemSettingActivity" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.ChangePhoneActivity" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.HelpCenterActivity" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.MessageActivity" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.MessageFansActivity" />
+        <activity android:name="com.blochchain.shortvideorecord.activity.UploadActivity"/>
+        <activity android:name="com.blochchain.shortvideorecord.activity.MessageDetailActivity"/>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+    </application>
+
+</manifest>

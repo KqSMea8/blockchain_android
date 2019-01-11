@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1e222d</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff00c1de</color>
+
+    <color name="black">#000000</color>
+    <color name="gray_bg">#66CDC9C9</color>
+    <color name="LineGrayColor">#DADADA</color>
+    <color name="transparent">#00000000</color>
+    <color name="searchGrayBackground">#E4E9F7</color>
+    <color name="text_color_blue">#4275F0</color>
+    <color name="blue_background">#5B92C7</color>
+    <color name="text_color_gray">#A2A2A2</color>
+    <color name="text_color_black">#000000</color>
+    <color name="text_color_light_black">#212121</color>
+    <color name="grayBackground">#F5F7F8</color>
+    <color name="gray_button_background">#C1CADF</color>
+    <color name="white">#ffffff</color>
+    <color name="round_background_blue">#6794DF</color>
+    <color name="round_background_light_blue">#5FAEDB</color>
+    <color name="round_background_red">#EA7775</color>
+    <color name="round_background_light_red">#E57CA6</color>
+    <color name="background_dark_red">#DC6664</color>
+    <color name="text_color_yellow">#DADC65</color>
+    <color name="text_color_green">#50F5FF</color>
+    <color name="play_data_gray_background">#EEEEEE</color>
+    <color name="background_dark_blue">#4275F0</color>
+    <color name="button_blue_back">#6D8FE1</color>
+    <color name="round_background_green">#21B5C2</color>
+    <color name="round_background_gray">#DDE6FC</color>
+    <color name="gray_circle_line">#D8D8D8</color>
+    <color name="gray_circle_back">#F0F0F0</color>
+    <color name="gray_circle_text_color">#737886</color>
+    <color name="text_color_light_blue">#00A7FF</color>
+
+
+    <color name="background">#FFFFFF</color>
+    <color name="split_line">#11112233</color>
+</resources>

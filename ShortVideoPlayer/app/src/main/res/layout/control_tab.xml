@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/fl_content_fragment"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="55dp" />
+        <!-- 底部导航 -->
+
+
+        <RelativeLayout
+            android:id="@+id/fl_bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/transparent">
+            <ImageView
+                android:id="@+id/line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/LineGrayColor" />
+            <RadioGroup
+                android:id="@+id/rg_content"
+                android:layout_width="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <!--android:drawableTop="@drawable/tab_recommend_bg"-->
+                <RadioButton
+                    android:id="@+id/rb_recommend_installment"
+                    android:text="首 页"
+                    android:paddingBottom="12dp"
+                    android:drawableBottom="@drawable/tab_commen_bg"
+                    style="@style/main_tab_style"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_color_black"
+                    android:checked="true"
+                    android:gravity="center"/>
+
+                <!--android:drawableTop="@drawable/tab_discover_bg"-->
+                <RadioButton
+                    android:id="@+id/rb_discover_installment"
+                    android:drawableBottom="@drawable/tab_commen_bg"
+                    android:text="发 现"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_color_light_gray"
+                    android:paddingBottom="12dp"
+                    style="@style/main_tab_style"
+                    android:gravity="center"/>
+
+                <!--android:drawableTop="@drawable/tab_subscribe_bg"-->
+                <RadioButton
+                    android:id="@+id/rb_subscribe_installment"
+                    style="@style/main_tab_style"
+                    android:drawableBottom="@drawable/tab_commen_bg"
+                    android:text="订 阅"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_color_light_gray"
+                    android:paddingBottom="12dp"
+                    android:gravity="center"/>
+
+                <!--android:drawableTop="@drawable/tab_mine_bg"-->
+                <RadioButton
+                    android:id="@+id/rb_mine_installment"
+                    style="@style/main_tab_style"
+                    android:paddingBottom="12dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_color_light_gray"
+                    android:drawableBottom="@drawable/tab_commen_bg"
+                    android:text="我 的"
+                    android:gravity="center"
+                    />
+
+
+            </RadioGroup>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

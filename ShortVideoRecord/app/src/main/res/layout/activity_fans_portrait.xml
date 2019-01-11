@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.blochchain.shortvideorecord.activity.FansPortraitActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_common_top_magging"
+        android:layout_marginRight="@dimen/activity_common_right_magging">
+        <ImageView
+            android:layout_width="@dimen/iv_back_width"
+            android:layout_height="wrap_content"
+            android:id="@+id/iv_back"
+            android:src="@mipmap/back_black"/>
+        <TextView
+            android:id="@+id/tv_tilte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_color_black"
+            android:textSize="@dimen/activity_common_title_size"
+            android:textStyle="bold"
+            android:text="粉丝画像" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="@dimen/activity_common_left_magging"
+        android:textColor="@color/text_color_light_black"
+        android:text="性别比例"/>
+
+    <com.blochchain.shortvideorecord.widget.PieChart
+        android:id="@+id/pc_sex"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/activity_common_top_magging"
+        android:src="@color/LineGrayColor"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/activity_common_left_magging"
+        android:textColor="@color/text_color_light_black"
+        android:text="粉丝来源"/>
+
+    <com.blochchain.shortvideorecord.widget.PieChart
+        android:id="@+id/pc_source"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/activity_common_top_magging"
+        android:src="@color/LineGrayColor"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:layout_marginLeft="@dimen/activity_common_left_magging"
+        android:textColor="@color/text_color_light_black"
+        android:text="地区分布"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_place"/>
+</LinearLayout>

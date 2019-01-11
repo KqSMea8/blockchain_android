@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">贝树小视频</string>
+    <string name="solution_apsarav">ApsaraV</string>
+    <string name="solution_push">直播推流</string>
+    <string name="solution_live_room">互动直播</string>
+    <string name="solution_player">视频播放</string>
+    <string name="solution_svideo">短视频</string>
+    <string name="solution_upload">视频上传</string>
+    <string name="solution_recorder">视频拍摄</string>
+    <string name="solution_camera">魔法相机</string>
+    <string name="solution_crop">视频裁剪</string>
+    <string name="solution_edit">视频编辑</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="record">拍摄</string>
+    <string name="magic_camera">魔法相机</string>
+    <string name="edit">导入编辑</string>
+    <string name="crop">导入裁剪</string>
+    <string name="live">直播</string>
+    <string name="ui">UI组件</string>
+    <string name="need_permission">请给予相应的权限</string>
+    <string name="help">其他</string>
+
+    <string name="solution_wait_remind">产品功能正在开发中...</string>
+    <string name="solution_unable_merge_remind">上传和短视频存在冲突,协调解决中..</string>
+    <string name="resetstr">切换成功，正在重新加载数据...</string>
+
+    <string name="aite">&#064;</string>
+    
+    <string name="login">登录</string>
+    <string name="read_agreed">我已阅读并同意</string>
+    <string name="user_protocol">《用户服务协议》</string>
+
+    <string name="cancle">取消</string>
+    <string name="title">请选择时间</string>
+    <string name="commit">确定</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+
+    <string name="select_date">选择日期</string>
+    <string name="current_date">当前日期</string>
+    <string name="select_time">选择时间</string>
+    <string name="current_time">当前时间</string>
+
+    <string name="net_error">网络未连接</string>
+    <string name="error">您的设备网络不稳定\n请检查后点击图标重试</string>
+    <string name="empty">暂无数据</string>
+    <string name="loading">加载中...</string>
+
+</resources>
